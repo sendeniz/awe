@@ -1,0 +1,25 @@
+dict_keys(['model', 'config', 'algo_name', 'env_metadata', 'shape_metadata'])
+Keys: None
+algo name: bc
+============= Loaded Config =============
+{
+    "algo_name": "bc",
+    "experiment": {
+        "name": "core_bc_rnn_lift_ph_low_dim",
+        "validate": true,
+        "logging": {
+            "terminal_output_to_txt": true,
+            "log_tb": true
+        },
+        "save": {
+            "enabled": true,
+            "every_n_seconds": null,
+            "every_n_epochs": 50,
+            "epochs": [],
+            "on_best_validation": false,
+            "on_best_rollout_return": false,
+            "on_best_rollout_success_rate": true
+        },
+        "epoch_every_n_steps": 100,
+        "validation_epoch_every_n_steps": 10,
+        "env": null,

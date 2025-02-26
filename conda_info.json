@@ -1,0 +1,109 @@
+{
+  "GID": 1000,
+  "UID": 1000,
+  "active_prefix": "/home/sen/miniconda3/envs/awe_venv",
+  "active_prefix_name": "awe_venv",
+  "av_data_dir": "/home/sen/miniconda3/etc/conda",
+  "av_metadata_url_base": null,
+  "channels": [
+    "https://conda.anaconda.org/conda-forge/linux-64",
+    "https://conda.anaconda.org/conda-forge/noarch",
+    "https://conda.anaconda.org/nodefaults/linux-64",
+    "https://conda.anaconda.org/nodefaults/noarch"
+  ],
+  "conda_build_version": "not installed",
+  "conda_env_version": "25.1.1",
+  "conda_location": "/home/sen/miniconda3/lib/python3.10/site-packages/conda",
+  "conda_prefix": "/home/sen/miniconda3",
+  "conda_shlvl": 2,
+  "conda_version": "25.1.1",
+  "config_files": [
+    "/home/sen/.condarc"
+  ],
+  "default_prefix": "/home/sen/miniconda3/envs/awe_venv",
+  "env_vars": {
+    "BUNDLED_DEBUGPY_PATH": "/home/sen/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy",
+    "CIO_TEST": "<not set>",
+    "CONDA_DEFAULT_ENV": "awe_venv",
+    "CONDA_EXE": "/home/sen/miniconda3/bin/conda",
+    "CONDA_PREFIX": "/home/sen/miniconda3/envs/awe_venv",
+    "CONDA_PREFIX_1": "/home/sen/miniconda3",
+    "CONDA_PROMPT_MODIFIER": "(awe_venv) ",
+    "CONDA_PYTHON_EXE": "/home/sen/miniconda3/bin/python",
+    "CONDA_ROOT": "/home/sen/miniconda3",
+    "CONDA_SHLVL": "2",
+    "CURL_CA_BUNDLE": "<not set>",
+    "LD_PRELOAD": "<not set>",
+    "PATH": "/home/sen/.vscode-server/bin/e54c774e0add60467559eb0d1e229c6452cf8447/bin/remote-cli:/home/sen/.local/bin:/home/sen/miniconda3/envs/awe_venv/bin:/home/sen/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0:/mnt/c/WINDOWS/System32/OpenSSH:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet:/mnt/c/Users/Sen/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Sen/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Sen/AppData/Local/GitHubDesktop/bin:/snap/bin:/home/sen/.vscode-server/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts",
+    "REQUESTS_CA_BUNDLE": "<not set>",
+    "SSL_CERT_FILE": "<not set>"
+  },
+  "envs": [
+    "/home/sen/miniconda3",
+    "/home/sen/miniconda3/envs/awe_venv",
+    "/home/sen/miniconda3/envs/s4mer"
+  ],
+  "envs_dirs": [
+    "/home/sen/miniconda3/envs",
+    "/home/sen/.conda/envs"
+  ],
+  "netrc_file": null,
+  "offline": false,
+  "pkgs_dirs": [
+    "/home/sen/miniconda3/pkgs",
+    "/home/sen/.conda/pkgs"
+  ],
+  "platform": "linux-64",
+  "python_version": "3.10.16.final.0",
+  "rc_path": "/home/sen/.condarc",
+  "requests_version": "2.32.3",
+  "root_prefix": "/home/sen/miniconda3",
+  "root_writable": true,
+  "site_dirs": [
+    "~/.local/lib/python3.10",
+    "~/.local/lib/python3.9"
+  ],
+  "solver": {
+    "default": true,
+    "name": "libmamba",
+    "user_agent": "solver/libmamba conda-libmamba-solver/25.1.1 libmambapy/2.0.5"
+  },
+  "sys.executable": "/home/sen/miniconda3/bin/python",
+  "sys.prefix": "/home/sen/miniconda3",
+  "sys.version": "3.10.16 | packaged by conda-forge | (main, Dec  5 2024, 14:16:10) [GCC 13.3.0]",
+  "sys_rc_path": "/home/sen/miniconda3/.condarc",
+  "user_agent": "conda/25.1.1 requests/2.32.3 CPython/3.10.16 Linux/5.15.167.4-microsoft-standard-WSL2 ubuntu/22.04.3 glibc/2.35 solver/libmamba conda-libmamba-solver/25.1.1 libmambapy/2.0.5",
+  "user_rc_path": "/home/sen/.condarc",
+  "virtual_pkgs": [
+    [
+      "__archspec",
+      "1",
+      "zen2"
+    ],
+    [
+      "__conda",
+      "25.1.1",
+      "0"
+    ],
+    [
+      "__cuda",
+      "12.6",
+      "0"
+    ],
+    [
+      "__glibc",
+      "2.35",
+      "0"
+    ],
+    [
+      "__linux",
+      "5.15.167.4",
+      "0"
+    ],
+    [
+      "__unix",
+      "0",
+      "0"
+    ]
+  ]
+}
