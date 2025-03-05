@@ -27,6 +27,9 @@ import robomimic.utils.env_utils as EnvUtils
 import robomimic.utils.obs_utils as ObsUtils
 
 
+def save_to_csv(list, name):
+    np.savetxt(f"{name}.csv", list, delimiter=",")
+
 def create_env(env_meta, shape_meta, enable_render=True):
 
     env_meta["env_kwargs"]["camera_heights"] = 256
@@ -85,16 +88,22 @@ class RobomimicImageRunner(BaseImageRunner):
         robosuite_fps = 20
         steps_per_render = max(robosuite_fps // fps, 1)
 
+
+
         # read from dataset
         env_meta = FileUtils.get_env_metadata_from_dataset(dataset_path)
         # disable object state observation
         env_meta["env_kwargs"]["use_object_obs"] = False
+        
+        env_meta["env_kwargs"]["controller_configs"]["kp"] =  1000
+        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000] # [0, 2000]
+        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 50] # [0, 60]
 
         rotation_transformer = None
         if abs_action:
             env_meta["env_kwargs"]["controller_configs"]["control_delta"] = False
             rotation_transformer = RotationTransformer("axis_angle", "rotation_6d")
-
+        
         # add linear interpolators for pos and ori
         if multiplier > 1:
             env_meta["env_kwargs"]["controller_configs"]["interpolation"] = "linear"
@@ -288,6 +297,11 @@ class RobomimicImageRunner(BaseImageRunner):
             )
 
             done = False
+            reward_lst = []
+            # OSC controller inputs to store end effector 3D pos and how far grippen is open/closed
+            controller_inputs_lst = []
+            # list to store end effector position in sim
+            end_effector_positions_lst = []
             while not done:
                 # create obs dict
                 np_obs_dict = dict(obs)
@@ -320,14 +334,50 @@ class RobomimicImageRunner(BaseImageRunner):
                 env_action = action
                 if self.abs_action:
                     env_action = self.undo_transform_action(action)
+                
+
+                # fetch last time step from controller inputs
+                last_timestep = env_action[0, -1, :]
+                # fetch 3D coordinates and gripper state
+                coordinates = last_timestep[:3] 
+                gripper_state = last_timestep[-1]
+                
+                # store controller inputs
+                controller_input = np.concatenate([coordinates, [gripper_state]])
+                controller_inputs_lst.append(controller_input)
 
                 obs, reward, done, info = env.step(env_action)
+
+                # append reward
+                reward_lst.append(reward)
+                
+                # Fetch joint positions
+                # joint_positions = env.call("get_joint_3d_positions")
+
+                end_effector_position = np.array(env.call("get_end_effector_3d_position"))
+
+                # Fetch joint state from sim
+                gripper_state_sim = np.array(env.call("get_gripper_state"))
+
+                end_effector_position = np.concatenate((end_effector_position, [gripper_state_sim]), axis=1).flatten()
+
+                end_effector_positions_lst.append(end_effector_position)
                 done = np.all(done)
                 past_action = action
 
                 # update pbar
                 pbar.update(action.shape[1])
             pbar.close()
+
+            # print mean reward
+            mean_reward = sum(reward_lst) / len(reward_lst)
+            print(f"Mean reward: {mean_reward}")
+
+            save_to_csv(mean_reward, name = "mrean_reward_kp1K")
+
+            # save 3D positions and gripper state lists to a csv
+            save_to_csv(controller_inputs_lst, name = "osc_inputs_kp1K")
+            save_to_csv(end_effector_positions_lst, name = "eef_pos_kp1K")
 
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]
