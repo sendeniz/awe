@@ -446,6 +446,7 @@ def env_from_checkpoint(
     shape_meta = ckpt_dict["shape_metadata"]
 
     # create env from saved metadata
+    print("!!!!!!!!!!!!!!!!!!!!!!!!!!!")
     env = EnvUtils.create_env_from_metadata(
         env_meta=env_meta,
         render=render,
