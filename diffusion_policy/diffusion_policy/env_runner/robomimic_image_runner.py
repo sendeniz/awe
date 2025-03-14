@@ -95,9 +95,9 @@ class RobomimicImageRunner(BaseImageRunner):
         # disable object state observation
         env_meta["env_kwargs"]["use_object_obs"] = False
         
-        env_meta["env_kwargs"]["controller_configs"]["kp"] =  1000
-        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000] # [0, 2000]
-        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 50] # [0, 60]
+        env_meta["env_kwargs"]["controller_configs"]["kp"] =  150 #1000
+        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 300] # [0, 2000]
+        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 10] # [0, 60]
 
         rotation_transformer = None
         if abs_action:
@@ -373,11 +373,11 @@ class RobomimicImageRunner(BaseImageRunner):
             mean_reward = sum(reward_lst) / len(reward_lst)
             print(f"Mean reward: {mean_reward}")
 
-            save_to_csv(mean_reward, name = "mrean_reward_kp1K")
+            save_to_csv(mean_reward, name = "mrean_reward_kp150_baseline")
 
             # save 3D positions and gripper state lists to a csv
-            save_to_csv(controller_inputs_lst, name = "osc_inputs_kp1K")
-            save_to_csv(end_effector_positions_lst, name = "eef_pos_kp1K")
+            save_to_csv(controller_inputs_lst, name = "osc_inputs_kp150_baseline")
+            save_to_csv(end_effector_positions_lst, name = "eef_pos_kp150_baseline")
 
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]
