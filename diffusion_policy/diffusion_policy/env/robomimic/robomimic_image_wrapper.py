@@ -8,7 +8,7 @@ from robomimic.envs.env_robosuite import EnvRobosuite
 import cv2 
 import mujoco
 
-#
+
 def img_resize(img, hw=(84, 84)):
     # from 3, H, W to H, W, 3
     img = img.transpose(1, 2, 0)
