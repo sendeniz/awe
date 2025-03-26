@@ -25,10 +25,18 @@ from diffusion_policy.env.robomimic.robomimic_image_wrapper import RobomimicImag
 import robomimic.utils.file_utils as FileUtils
 import robomimic.utils.env_utils as EnvUtils
 import robomimic.utils.obs_utils as ObsUtils
+import json 
 
-
-def save_to_csv(list, name):
-    np.savetxt(f"{name}.csv", list, delimiter=",")
+def save_to_json(list_of_arrays, name):  # Changed parameter to 'name' for consistency
+    """
+    Save a list of numpy arrays to JSON, preserving their separation.
+    Each array will be stored as a separate entry in the JSON list.
+    """
+    # Convert all arrays to nested lists (JSON-compatible)
+    json_data = [arr.tolist() for arr in list_of_arrays]
+    
+    with open(f"{name}.json", "w") as f:
+        json.dump(json_data, f)
 
 def create_env(env_meta, shape_meta, enable_render=True):
 
@@ -95,9 +103,9 @@ class RobomimicImageRunner(BaseImageRunner):
         # disable object state observation
         env_meta["env_kwargs"]["use_object_obs"] = False
         
-        env_meta["env_kwargs"]["controller_configs"]["kp"] =  150 #1000
-        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 300] # [0, 2000]
-        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 10] # [0, 60]
+        env_meta["env_kwargs"]["controller_configs"]["kp"] = 1000 # 150 #  1000 
+        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000] # [0, 300] #   [0, 2000] #
+        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 60] # [0, 10] #  [0, 10]  #  [0, 60]
 
         rotation_transformer = None
         if abs_action:
@@ -302,6 +310,8 @@ class RobomimicImageRunner(BaseImageRunner):
             controller_inputs_lst = []
             # list to store end effector position in sim
             end_effector_positions_lst = []
+            avg_euclid_error_lst = []
+
             while not done:
                 # create obs dict
                 np_obs_dict = dict(obs)
@@ -336,14 +346,15 @@ class RobomimicImageRunner(BaseImageRunner):
                     env_action = self.undo_transform_action(action)
                 
 
-                # fetch last time step from controller inputs
-                last_timestep = env_action[0, -1, :]
+                # fetch last time step from controller inputs not env
+                # fetch last time-step from controller inputs acrooss number of envs all envs cooresponds to first idex with value ":"
+                last_timesteps = env_action[:, -1, :]
                 # fetch 3D coordinates and gripper state
-                coordinates = last_timestep[:3] 
-                gripper_state = last_timestep[-1]
-                
-                # store controller inputs
-                controller_input = np.concatenate([coordinates, [gripper_state]])
+                coordinates = last_timesteps[:, :3] 
+                gripper_states = last_timesteps[:, -1]
+                 # Shape from (2, ) to (2, 1) for concat operation
+
+                controller_input = np.hstack((coordinates, gripper_states[:, np.newaxis]))
                 controller_inputs_lst.append(controller_input)
 
                 obs, reward, done, info = env.step(env_action)
@@ -358,10 +369,19 @@ class RobomimicImageRunner(BaseImageRunner):
 
                 # Fetch joint state from sim
                 gripper_state_sim = np.array(env.call("get_gripper_state"))
+            
+                # controller inputs from env
+                controller_input_env = np.hstack((end_effector_position, gripper_state_sim[:, np.newaxis]))
 
-                end_effector_position = np.concatenate((end_effector_position, [gripper_state_sim]), axis=1).flatten()
+                end_effector_positions_lst.append(controller_input_env)
+                
+                # compute eucledian error between controller inputs and actual eef pos from env
+                euclid_error = np.linalg.norm(coordinates - end_effector_position, axis=1)
 
-                end_effector_positions_lst.append(end_effector_position)
+                # average to get avg obtain error over all environments
+                avg_euclid_error = np.mean(euclid_error)
+                avg_euclid_error_lst.append(avg_euclid_error)
+
                 done = np.all(done)
                 past_action = action
 
@@ -369,15 +389,27 @@ class RobomimicImageRunner(BaseImageRunner):
                 pbar.update(action.shape[1])
             pbar.close()
 
-            # print mean reward
-            mean_reward = sum(reward_lst) / len(reward_lst)
-            print(f"Mean reward: {mean_reward}")
-
-            save_to_csv(mean_reward, name = "mrean_reward_kp150_baseline")
+            # print metrics: mean reward, mean euclid. error and successrate
+            # average metrics over each time step
+            avg_reward = sum(reward_lst) / len(reward_lst)
+            # average mean reward over number of envs here, bcs if individual env has zero reward it failed
+            # can be used to compute rate of sucess 
+            mean_reward = np.array([np.mean(avg_reward)]) 
+            # compute rate of success
+            n_successes =  np.count_nonzero(avg_reward > 0)
+            successes_rate = n_successes / len(avg_reward) * 100
+            mean_euclid_error =  sum(avg_euclid_error_lst) / len(avg_euclid_error_lst)
+            print(f"Mean reward: {mean_reward}, Mean 3D error: {mean_euclid_error}, Success rate {successes_rate}:")
+            
+            save_to_json(mean_reward, name = "results/square/mean_reward_kp1K_awe")
+            save_to_json(mean_euclid_error, name = "results/square/mean_euclid_error_kp1K_awe")
 
             # save 3D positions and gripper state lists to a csv
-            save_to_csv(controller_inputs_lst, name = "osc_inputs_kp150_baseline")
-            save_to_csv(end_effector_positions_lst, name = "eef_pos_kp150_baseline")
+            #print("controller_inputs_lst.shape:", controller_inputs_lst.shape)
+            #print("end_effector_positions_lst.shape:", end_effector_positions_lst.shape)
+            #print("controller_inputs_lst:", controller_inputs_lst)
+            save_to_json(controller_inputs_lst, name = "results/square/osc_inputs_kp1K_awe")
+            save_to_json(end_effector_positions_lst, name = "results/square/eef_pos_kp1K_awe")
 
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]
