@@ -13,6 +13,7 @@ from waypoint_extraction.extract_waypoints import (
     greedy_waypoint_selection,
     dp_waypoint_selection,
     backtrack_waypoint_selection,
+    dp_bspline_waypoint_selection
 )
 from utils import plot_3d_trajectory
 
@@ -89,6 +90,8 @@ def main(args):
             waypoint_selection = dp_waypoint_selection
         elif args.method == "backtrack":
             waypoint_selection = backtrack_waypoint_selection
+        elif args.method == "bspline":
+            waypoint_selection = dp_bspline_waypoint_selection
 
         fig = plt.figure(
             figsize=(10 * len(args.err_threshold), 10)
@@ -96,7 +99,8 @@ def main(args):
 
         for i, err_thresh in enumerate(args.err_threshold):
             ax = fig.add_subplot(1, len(args.err_threshold), i + 1, projection="3d")
-
+            print("i",i)
+            print("error tresh:", err_thresh)
             waypoints = waypoint_selection(
                 env=env,
                 actions=actions,
@@ -105,7 +109,7 @@ def main(args):
                 initial_states=initial_states,
                 remove_obj=True,
             )
-
+            print(waypoints)
             num_waypoints.append(len(waypoints))
             num_frames.append(traj_len)
 
@@ -124,13 +128,17 @@ def main(args):
             ax.set_title(f"Error budget = {err_thresh}", fontsize=26)
 
             gt_pos = [s["robot0_eef_pos"] for s in gt_states]
+
+            # store the visualised path as a txt file
+            np.savetxt(f'plot/epsilon/{task}_ground_truth_pos.txt', gt_pos)
+
             plot_3d_trajectory(ax, gt_pos, label="ground truth", legend=False)
 
             # waypoint_states is the slice of gt_pos that corresponds to the waypoints
             # prepend 0 to waypoints to include the initial state
             waypoints = [0] + waypoints
             waypoint_states = [gt_pos[i] for i in waypoints]
-
+            print("waypoint_states", waypoint_states)
             plot_3d_trajectory(ax, waypoint_states, label="waypoints", legend=False)
 
         fig.suptitle(
@@ -160,7 +168,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--dataset",
         type=str,
-        default="robomimic/datasets/can/ph/low_dim.hdf5",
+        default="robomimic/datasets/sqare/ph/low_dim.hdf5",
         help="path to hdf5 dataset",
     )
 
