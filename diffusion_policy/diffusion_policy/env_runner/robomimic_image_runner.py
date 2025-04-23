@@ -85,6 +85,8 @@ class RobomimicImageRunner(BaseImageRunner):
         tqdm_interval_sec=5.0,
         n_envs=None,
         multiplier=10,
+        model="baseline",
+        control_gains="high",
     ):
         super().__init__(output_dir)
 
@@ -103,9 +105,17 @@ class RobomimicImageRunner(BaseImageRunner):
         # disable object state observation
         env_meta["env_kwargs"]["use_object_obs"] = False
         
-        env_meta["env_kwargs"]["controller_configs"]["kp"] = 1000 # 150 #  1000 
-        env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000] # [0, 300] #   [0, 2000] #
-        env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 60] # [0, 10] #  [0, 10]  #  [0, 60]
+        if control_gains == "default":
+            print("Default controller gains.")
+            env_meta["env_kwargs"]["controller_configs"]["kp"] = 150 
+            env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 300]
+            env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 10]
+        
+        elif control_gains == "high":
+            print("High KP controller gains.")
+            env_meta["env_kwargs"]["controller_configs"]["kp"] = 1000
+            env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000]
+            env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 60]
 
         rotation_transformer = None
         if abs_action:
@@ -261,6 +271,12 @@ class RobomimicImageRunner(BaseImageRunner):
         self.abs_action = abs_action
         self.tqdm_interval_sec = tqdm_interval_sec
 
+        # params for saving writings metrics to json
+        self.kp_gains = env_meta["env_kwargs"]["controller_configs"]["kp"]
+        self.task = self.env_meta["env_name"]
+        print(self.task)
+        self.model = model
+
     def run(self, policy: BaseImagePolicy):
         device = policy.device
         dtype = policy.dtype
@@ -310,7 +326,7 @@ class RobomimicImageRunner(BaseImageRunner):
             controller_inputs_lst = []
             # list to store end effector position in sim
             end_effector_positions_lst = []
-            avg_euclid_error_lst = []
+            euclid_error_lst = []
 
             while not done:
                 # create obs dict
@@ -378,9 +394,8 @@ class RobomimicImageRunner(BaseImageRunner):
                 # compute eucledian error between controller inputs and actual eef pos from env
                 euclid_error = np.linalg.norm(coordinates - end_effector_position, axis=1)
 
-                # average to get avg obtain error over all environments
-                avg_euclid_error = np.mean(euclid_error)
-                avg_euclid_error_lst.append(avg_euclid_error)
+                # store euclid error from envs: has len of envs one error for each env
+                euclid_error_lst.append(euclid_error)
 
                 done = np.all(done)
                 past_action = action
@@ -390,26 +405,32 @@ class RobomimicImageRunner(BaseImageRunner):
             pbar.close()
 
             # print metrics: mean reward, mean euclid. error and successrate
-            # average metrics over each time step
+            # average metrics over each time step to obtain avg reward for each env
+            # avg reward shape: [nenvs,] averaged over each time-step in each env NOT averages over envs
             avg_reward = sum(reward_lst) / len(reward_lst)
+
+            # avg euclid error shape: [nenvs,] averaged over each time-step in each env NOT averages over envs
+            avg_euclid_error = sum(euclid_error_lst) / len(euclid_error_lst)
+            
+            # store avg reward and euclid error per env 
+            save_to_json([avg_reward], name = f"results/{self.task}/avg_reward_{self.kp_gains}_{self.model}")
+            save_to_json([avg_euclid_error], name = f"results/{self.task}/avg_euclid_error_{self.kp_gains}_{self.model}")
+
             # average mean reward over number of envs here, bcs if individual env has zero reward it failed
-            # can be used to compute rate of sucess 
+            # can be used to compute rate of sucess
             mean_reward = np.array([np.mean(avg_reward)]) 
             # compute rate of success
             n_successes =  np.count_nonzero(avg_reward > 0)
             successes_rate = n_successes / len(avg_reward) * 100
-            mean_euclid_error =  sum(avg_euclid_error_lst) / len(avg_euclid_error_lst)
+            mean_euclid_error = np.array([np.mean(avg_euclid_error)]) 
             print(f"Mean reward: {mean_reward}, Mean 3D error: {mean_euclid_error}, Success rate {successes_rate}:")
             
-            save_to_json(mean_reward, name = "results/square/mean_reward_kp1K_awe")
-            save_to_json(mean_euclid_error, name = "results/square/mean_euclid_error_kp1K_awe")
-
-            # save 3D positions and gripper state lists to a csv
-            #print("controller_inputs_lst.shape:", controller_inputs_lst.shape)
-            #print("end_effector_positions_lst.shape:", end_effector_positions_lst.shape)
-            #print("controller_inputs_lst:", controller_inputs_lst)
-            save_to_json(controller_inputs_lst, name = "results/square/osc_inputs_kp1K_awe")
-            save_to_json(end_effector_positions_lst, name = "results/square/eef_pos_kp1K_awe")
+            save_to_json([mean_reward], name = f"results/{self.task}/mean_reward_{self.kp_gains}_{self.model}")
+            save_to_json([mean_euclid_error], name = f"results/{self.task}/mean_euclid_error_{self.kp_gains}_{self.model}")
+            save_to_json([np.array(successes_rate)], name = f"results/{self.task}/success_rate_{self.kp_gains}_{self.model}")
+            # save 3D positions and gripper state lists
+            save_to_json(controller_inputs_lst, name = f"results/{self.task}/osc_inputs_{self.kp_gains}_{self.model}")
+            save_to_json(end_effector_positions_lst, name = f"results/{self.task}/eef_pos_{self.kp_gains}_{self.model}")
 
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]

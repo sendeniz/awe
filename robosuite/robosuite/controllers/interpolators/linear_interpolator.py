@@ -2,7 +2,6 @@ from robosuite.controllers.interpolators.base_interpolator import Interpolator
 import numpy as np
 import robosuite.utils.transform_utils as T
 
-
 class LinearInterpolator(Interpolator):
     """
     Simple class for implementing a linear interpolator.
@@ -114,8 +113,10 @@ class LinearInterpolator(Interpolator):
         Returns:
             np.array: Next position in the interpolated trajectory
         """
+        
         # Grab start position
         x = np.array(self.start)
+
         # Calculate the desired next step based on remaining interpolation steps
         if self.ori_interpolate is not None:
             # This is an orientation interpolation, so we interpolate linearly around a sphere instead

@@ -1,6 +1,7 @@
 """ Automatic waypoint selection """
 import numpy as np
 import copy
+from scipy.interpolate import BSpline
 
 from waypoint_extraction.traj_reconstruction import (
     pos_only_geometric_waypoint_trajectory,
@@ -239,6 +240,16 @@ def dp_waypoint_selection(
 
     return waypoints
 
+def dp_bspline_waypoint_selection(
+    env=None,
+    actions=None,
+    gt_states=None,
+    err_threshold=0.01,
+    initial_states=None,
+    remove_obj=None,
+    pos_only=False,
+):
+    pass
 
 def dp_reconstruct_waypoint_selection(
     env, actions, gt_states, err_threshold, initial_states, remove_obj
