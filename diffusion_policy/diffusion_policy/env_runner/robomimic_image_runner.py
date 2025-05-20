@@ -85,8 +85,9 @@ class RobomimicImageRunner(BaseImageRunner):
         tqdm_interval_sec=5.0,
         n_envs=None,
         multiplier=10,
-        model="baseline",
-        control_gains="high",
+        model=None,
+        # pass controller configs
+        controller_configs=None
     ):
         super().__init__(output_dir)
 
@@ -104,18 +105,16 @@ class RobomimicImageRunner(BaseImageRunner):
         env_meta = FileUtils.get_env_metadata_from_dataset(dataset_path)
         # disable object state observation
         env_meta["env_kwargs"]["use_object_obs"] = False
+        #print("Model name:", model)
+        #print("controller init:")
+        print(env_meta["env_kwargs"]["controller_configs"]["kp"])
+
+        # update and overwrite default controller settings by using controller config from yaml
+        env_meta["env_kwargs"]["controller_configs"].update(controller_configs)
         
-        if control_gains == "default":
-            print("Default controller gains.")
-            env_meta["env_kwargs"]["controller_configs"]["kp"] = 150 
-            env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 300]
-            env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 10]
         
-        elif control_gains == "high":
-            print("High KP controller gains.")
-            env_meta["env_kwargs"]["controller_configs"]["kp"] = 1000
-            env_meta["env_kwargs"]["controller_configs"]["kp_limits"] = [0, 2000]
-            env_meta["env_kwargs"]["controller_configs"]["damping_limits"] = [0, 60]
+        #print("controller after init:")
+        print(env_meta["env_kwargs"]["controller_configs"]["kp"])
 
         rotation_transformer = None
         if abs_action:
@@ -327,6 +326,8 @@ class RobomimicImageRunner(BaseImageRunner):
             # list to store end effector position in sim
             end_effector_positions_lst = []
             euclid_error_lst = []
+            lin_vel_error_lst = []
+            ang_vel_error_lst = []
 
             while not done:
                 # create obs dict
@@ -368,24 +369,33 @@ class RobomimicImageRunner(BaseImageRunner):
                 # fetch 3D coordinates and gripper state
                 coordinates = last_timesteps[:, :3] 
                 gripper_states = last_timesteps[:, -1]
-                 # Shape from (2, ) to (2, 1) for concat operation
+                # Shape from (2, ) to (2, 1) for concat operation
+
+                # fetch target velocities from controller
+                desired_vel_lin, desired_vel_ang = np.array(env.call("get_controller_lin_velocity")), np.array(env.call("get_controller_ang_velocity"))
+
 
                 controller_input = np.hstack((coordinates, gripper_states[:, np.newaxis]))
                 controller_inputs_lst.append(controller_input)
 
                 obs, reward, done, info = env.step(env_action)
+                # can also fetch success states at each time-step
+                # success_bools = env.call("get_success_status")
 
                 # append reward
                 reward_lst.append(reward)
                 
                 # Fetch joint positions
-                # joint_positions = env.call("get_joint_3d_positions")
+                # joint_positions = env.call("get_sim_joint_3d_positions")
 
-                end_effector_position = np.array(env.call("get_end_effector_3d_position"))
+                end_effector_position = np.array(env.call("get_sim_end_effector_3d_position"))
 
                 # Fetch joint state from sim
-                gripper_state_sim = np.array(env.call("get_gripper_state"))
-            
+                gripper_state_sim = np.array(env.call("get_sim_gripper_state"))
+
+                # Fetch velocities from sim after control
+                sim_vel_lin, sim_vel_ang = np.array(env.call("get_sim_lin_velocity")), np.array(env.call("get_sim_ang_velocity"))
+
                 # controller inputs from env
                 controller_input_env = np.hstack((end_effector_position, gripper_state_sim[:, np.newaxis]))
 
@@ -394,8 +404,15 @@ class RobomimicImageRunner(BaseImageRunner):
                 # compute eucledian error between controller inputs and actual eef pos from env
                 euclid_error = np.linalg.norm(coordinates - end_effector_position, axis=1)
 
+                # compute error between controller inputs and actual velocities
+                lin_vel_error = np.linalg.norm(desired_vel_lin - sim_vel_lin, axis=1) # shape: (n_envs,)
+                ang_vel_error = np.linalg.norm(desired_vel_ang - sim_vel_ang, axis=1) # shape: (n_envs,)
+                
                 # store euclid error from envs: has len of envs one error for each env
                 euclid_error_lst.append(euclid_error)
+
+                lin_vel_error_lst.append(lin_vel_error)
+                ang_vel_error_lst.append(ang_vel_error)
 
                 done = np.all(done)
                 past_action = action
@@ -405,32 +422,63 @@ class RobomimicImageRunner(BaseImageRunner):
             pbar.close()
 
             # print metrics: mean reward, mean euclid. error and successrate
-            # average metrics over each time step to obtain avg reward for each env
-            # avg reward shape: [nenvs,] averaged over each time-step in each env NOT averages over envs
-            avg_reward = sum(reward_lst) / len(reward_lst)
-
+            # due to sparse reward i.e., 0 or 1 for successfull task mean reward not averaged over time-step
             # avg euclid error shape: [nenvs,] averaged over each time-step in each env NOT averages over envs
             avg_euclid_error = sum(euclid_error_lst) / len(euclid_error_lst)
+
+            avg_lin_vel_error = sum(lin_vel_error_lst) / len(lin_vel_error_lst)
             
-            # store avg reward and euclid error per env 
-            save_to_json([avg_reward], name = f"results/{self.task}/avg_reward_{self.kp_gains}_{self.model}")
+            avg_ang_vel_error = sum(ang_vel_error_lst) / len(ang_vel_error_lst)
+
+            # store euclid error per env 
             save_to_json([avg_euclid_error], name = f"results/{self.task}/avg_euclid_error_{self.kp_gains}_{self.model}")
 
-            # average mean reward over number of envs here, bcs if individual env has zero reward it failed
-            # can be used to compute rate of sucess
-            mean_reward = np.array([np.mean(avg_reward)]) 
-            # compute rate of success
-            n_successes =  np.count_nonzero(avg_reward > 0)
-            successes_rate = n_successes / len(avg_reward) * 100
-            mean_euclid_error = np.array([np.mean(avg_euclid_error)]) 
-            print(f"Mean reward: {mean_reward}, Mean 3D error: {mean_euclid_error}, Success rate {successes_rate}:")
+            # save averaged velocities oveer time-step for each env
+            save_to_json(avg_lin_vel_error, name=f"results/{self.task}/avg_lin_vel_error_{self.kp_gains}_{self.model}")
+            save_to_json(avg_ang_vel_error, name=f"results/{self.task}/avg_ang_vel_error_{self.kp_gains}_{self.model}")
+
+            # fetch reward at last time-step bcs sparse reward condition i.e., 0 or 1 reward for success
+            # average to obtain mean reward over envs
+            mean_reward = np.array([np.mean(reward_lst[-1])])
+
+            # compute rate of succes
+            # something is not right with the internal success condition in lift task 
+            # i.e., mean reward can be 1 but success rate 74 %, eventhough all envs will have reward 1
+            # since sparse reward setting this would indicate success but its not registered as such by
+            # internal method, might trigger and untrigger condition
+            # fetch n_successes using reward of last time-step instead 1 success 0 failure due to sparse reward setting
+            success_bools = env.call("get_success_status")
+
+            # success computation based on reward of last time-step since sparse reward 0 fail 1 succes at
+            # last time-step to resolve issue of internal method described above
+            n_successes =  np.count_nonzero(reward_lst[-1] == 1)
+            success_rates = n_successes / len(reward_lst[-1]) * 100
+
+            success_rate = sum(success_bools) / len(success_bools) * 100
+            mean_euclid_error = np.array([np.mean(avg_euclid_error)])
+            mean_lin_vel_error = np.array([np.mean(avg_lin_vel_error)])
+            mean_ang_vel_error = np.array([np.mean(avg_ang_vel_error)])
+
+            print(f"Mean reward: {mean_reward}, Success rate internal method: {success_rate}, Success rate reward method: {success_rates}")
             
-            save_to_json([mean_reward], name = f"results/{self.task}/mean_reward_{self.kp_gains}_{self.model}")
-            save_to_json([mean_euclid_error], name = f"results/{self.task}/mean_euclid_error_{self.kp_gains}_{self.model}")
-            save_to_json([np.array(successes_rate)], name = f"results/{self.task}/success_rate_{self.kp_gains}_{self.model}")
+            print(f"Mean 3D error: {mean_euclid_error}, Mean lin. vel. error: {mean_lin_vel_error}, Mean ang. vel. error:: {mean_ang_vel_error}")
+
+            # save mean reward
+            save_to_json(mean_reward, name = f"results/{self.task}/mean_reward_{self.kp_gains}_{self.model}")
+
+            # save mean euclid error
+            save_to_json(mean_euclid_error, name = f"results/{self.task}/mean_euclid_error_{self.kp_gains}_{self.model}")
+
+            save_to_json([np.array(success_rate)], name = f"results/{self.task}/success_rate_{self.kp_gains}_{self.model}")
+            save_to_json([np.array(success_rates)], name = f"results/{self.task}/success_rates_{self.kp_gains}_{self.model}")
+
             # save 3D positions and gripper state lists
             save_to_json(controller_inputs_lst, name = f"results/{self.task}/osc_inputs_{self.kp_gains}_{self.model}")
             save_to_json(end_effector_positions_lst, name = f"results/{self.task}/eef_pos_{self.kp_gains}_{self.model}")
+
+            # save velocity errors over all envs
+            save_to_json(mean_lin_vel_error, name = f"results/{self.task}/mean_lin_vel_error_{self.kp_gains}_{self.model}")
+            save_to_json(mean_ang_vel_error, name = f"results/{self.task}/mean_ang_vel_error_{self.kp_gains}_{self.model}")
 
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]

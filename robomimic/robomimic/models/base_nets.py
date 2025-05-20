@@ -501,7 +501,7 @@ class ResNet18Conv(ConvBase):
         """
         super(ResNet18Conv, self).__init__()
         net = vision_models.resnet18(pretrained=pretrained)
-
+        #net = vision_models.resnet18(weights="DEFAULT")
         if input_coord_conv:
             net.conv1 = CoordConv2d(
                 input_channel, 64, kernel_size=7, stride=2, padding=3, bias=False
