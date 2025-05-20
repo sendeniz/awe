@@ -22,6 +22,24 @@ def img_resize(img, hw=(84, 84)):
 def normalize(value, in_min, in_max, out_min, out_max):
     return (value - in_min) * (out_max - out_min) / (in_max - in_min) + out_min
 
+
+def compute_orientation_error(goal_rot, current_rot):
+    """
+    Compute orientation error as axis-angle (3D vector).
+    """
+    # rel. rotation matrix
+    error_rot = np.dot(goal_rot.T, current_rot) 
+    cos_theta = np.clip((np.trace(error_rot) - 1) / 2, -1.0, 1.0)
+    angle = np.arccos(cos_theta)
+    axis = np.array([error_rot[2,1] - error_rot[1,2],
+                     error_rot[0,2] - error_rot[2,0],
+                     error_rot[1,0] - error_rot[0,1]])
+    # add constant c to avoid division by zero
+    axis = axis / (2 * np.sin(angle) + 1e-6)
+    # 3D axis-angle error
+    return axis * angle  
+
+
 class RobomimicImageWrapper(gym.Env):
     def __init__(self, 
         env: EnvRobosuite,
@@ -151,13 +169,13 @@ class RobomimicImageWrapper(gym.Env):
         return img
     
     # Add this method to access joint positions
-    def get_joint_positions(self):
+    def get_sim_joint_positions(self):
         """
         Returns the joint positions (qpos) from the underlying Robosuite environment.
         """
         return self.env.env.sim.data.qpos.copy()
     
-    def get_joint_3d_positions(self):
+    def get_sim_joint_3d_positions(self):
         """
         Returns the 3D positions of the robot's joints in world coordinates.
         """
@@ -175,7 +193,7 @@ class RobomimicImageWrapper(gym.Env):
         
         return np.array(joint_positions_3d)
     
-    def get_end_effector_3d_position(self):
+    def get_sim_end_effector_3d_position(self):
         """
         Returns the 3D position of the robot's end-effector in world coordinates.
         """
@@ -191,7 +209,7 @@ class RobomimicImageWrapper(gym.Env):
         end_effector_pos = data.site_xpos[site_id]
         return end_effector_pos
 
-    def get_gripper_state(self):
+    def get_sim_gripper_state(self):
         # Get all joint positions
         joint_positions = self.env.env.sim.data.qpos.copy()
 
@@ -215,6 +233,70 @@ class RobomimicImageWrapper(gym.Env):
         #print("Gripper State:", gripper_state)
         return gripper_state
     
+    def get_success_status(self):
+        """
+        Use Robosuit native _check_sucess for envs.
+        """
+        success = self.env.env._check_success()
+        return success
+
+    def get_rewards(self):
+        rewards = self.env.env.reward()
+        return rewards
+    
+    def get_controller_lin_velocity(self):
+        """
+        Returns desired linear/angular velocity for an OSC_POSE controller.
+        Matches the config: kp=150 (position), damping=1 (velocity damping).
+        """
+
+        controller = self.env.env.robots[0].controller
+
+        # Linear velocity (P-term + damping)
+        position_error = controller.goal_pos - controller.ee_pos
+        desired_vel_linear = controller.kp[:3] * position_error  # kp=150 from config
+        desired_vel_linear -= controller.kd[:3] * controller.ee_pos_vel  # damping=1 from config
+
+        return desired_vel_linear
+
+    def get_controller_ang_velocity(self):
+
+        controller = self.env.env.robots[0].controller
+
+        # Angular velocity (P-term + damping)
+        # Assumes goal_ori and ee_ori_mat are rotation matrices (convert to axis-angle error)
+        orientation_error = compute_orientation_error(controller.goal_ori, controller.ee_ori_mat)
+        desired_vel_angular = controller.kp[3:] * orientation_error  # Last 3 elements of kp
+        desired_vel_angular -= controller.kd[3:] * controller.ee_ori_vel  # damping=1
+
+        return desired_vel_angular
+    
+
+    def get_sim_lin_velocity(self):
+        """
+        Returns the actual linear velocity (3D) of the end-effector in world coordinates.
+        """
+        end_effector_site_name = "gripper0_grip_site"
+        site_id = self.env.env.sim.model.site_name2id(end_effector_site_name)
+        return self.env.env.sim.data.site_xvelp[site_id]
+
+    def get_sim_ang_velocity(self):
+        """
+        Returns the actual angular velocity (3D) of the end-effector in world coordinates.
+        """
+        end_effector_site_name = "gripper0_grip_site"
+        site_id = self.env.env.sim.model.site_name2id(end_effector_site_name)
+        return self.env.env.sim.data.site_xvelr[site_id]
+    
+    def get_controller_orentation_error(self):
+        controller = self.env.env.robots[0].controller
+        orientation_error = compute_orientation_error(controller.goal_ori, controller.ee_ori_mat)
+
+        return orientation_error
+
+
+
+
 
 
 def test():

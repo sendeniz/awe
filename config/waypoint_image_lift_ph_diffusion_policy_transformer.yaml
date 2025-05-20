@@ -180,10 +180,28 @@ task:
   dataset_path: data/robomimic/datasets/lift/ph/image_abs.hdf5
   dataset_type: ph
   env_runner:
+    model: "awe"  # baseline diffusion pol + awe 
     _target_: diffusion_policy.env_runner.robomimic_image_runner.RobomimicImageRunner
     abs_action: true
     crf: 22
     dataset_path: data/robomimic/datasets/lift/ph/image_abs.hdf5
+    controller_configs:
+      type: OSC_POSE
+      input_max: 1
+      input_min: -1
+      output_max: [0.05, 0.05, 0.05, 0.5, 0.5, 0.5]  
+      output_min: [-0.05, -0.05, -0.05, -0.5, -0.5, -0.5]
+      kp: 150
+      damping: 1                            
+      impedance_mode: "fixed"
+      kp_limits: [0, 300]
+      damping_limits: [0, 10]
+      position_limits: null
+      orientation_limits: null
+      uncouple_pos_ori: true
+      control_delta: true
+      interpolation: null
+      ramp_ratio: 0.2 
     fps: 10
     max_steps: 200
     n_action_steps: ${n_action_steps}
@@ -193,7 +211,7 @@ task:
     n_test_vis: 0
     n_train: 0
     n_train_vis: 0
-    multiplier: 10
+    multiplier: 1 # set to 1 instead of 10 like in baseline
     past_action: false
     render_obs_key: agentview_image
     shape_meta:

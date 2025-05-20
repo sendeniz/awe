@@ -181,10 +181,28 @@ task:
   dataset_path: data/robomimic/datasets/can/ph/image_abs.hdf5
   dataset_type: ph
   env_runner:
+    model: "baseline"  # baseline diffusion pol 
     _target_: diffusion_policy.env_runner.robomimic_image_runner.RobomimicImageRunner
     abs_action: true
     crf: 22
     dataset_path: data/robomimic/datasets/can/ph/image_abs.hdf5
+    controller_configs:
+      type: OSC_POSE
+      input_max: 1
+      input_min: -1
+      output_max: [0.05, 0.05, 0.05, 0.5, 0.5, 0.5]  
+      output_min: [-0.05, -0.05, -0.05, -0.5, -0.5, -0.5]
+      kp: 150
+      damping: 1                            
+      impedance_mode: "fixed"
+      kp_limits: [0, 300]
+      damping_limits: [0, 10]
+      position_limits: null
+      orientation_limits: null
+      uncouple_pos_ori: true
+      control_delta: true
+      interpolation: null
+      ramp_ratio: 0.2 
     fps: 10
     max_steps: 200
     n_action_steps: ${n_action_steps}

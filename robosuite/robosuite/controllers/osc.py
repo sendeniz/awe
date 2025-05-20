@@ -135,6 +135,7 @@ class OperationalSpaceController(Controller):
             joint_indexes,
             actuator_range,
         )
+
         # Determine whether this is pos ori or just pos
         self.use_ori = control_ori
 
