@@ -212,7 +212,7 @@ task:
     n_test_vis: 0
     n_train: 0
     n_train_vis: 0
-    multiplier: 1 # set to 1 instead of 10 like in baseline
+    multiplier: 1 # original val from author is 10 but we can also set it via args.multiplier
     past_action: false
     render_obs_key: agentview_image
     shape_meta:
