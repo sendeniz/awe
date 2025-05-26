@@ -138,6 +138,7 @@ def main(args):
         run_cfg["task"]["env_runner"]["n_test"] = args.n_test
         # different start seed for each run for higher variation between runs
         run_cfg["task"]["env_runner"]["test_start_seed"] = np.random.randint(0, 100000)
+        run_cfg["task"]["env_runner"]["multiplier"] = args.multiplier
 
         # Create output directory for this run
         output_dir = os.path.join(f"results/{args.task}_{model_type}_kp_{args.kp}_run_{run}")
@@ -216,6 +217,12 @@ if __name__ == "__main__":
         nargs=2,
         default=[0, 10],
         help="Damping limits as two values (e.g., '--damping_limits 0 10')"
+    )
+    parser.add_argument(
+        "--multiplier",
+        type=int,
+        default=1,
+        help="Multiplier used for controller linear interpolation. Higher value smoother interpolation. "
     )
     parser.add_argument(
         "--n_runs",
