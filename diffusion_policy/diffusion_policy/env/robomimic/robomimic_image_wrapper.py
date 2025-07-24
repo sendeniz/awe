@@ -8,6 +8,7 @@ from robomimic.envs.env_robosuite import EnvRobosuite
 import cv2 
 import mujoco
 
+cv2.setNumThreads(1)
 
 def img_resize(img, hw=(84, 84)):
     # from 3, H, W to H, W, 3
