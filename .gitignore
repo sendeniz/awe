@@ -144,3 +144,8 @@ video/
 # log
 robomimic/bc_trained_models*
 robomimic/robomimic/debug
+
+# media and result files
+*.mp4
+results/
+rollout_outputs/
