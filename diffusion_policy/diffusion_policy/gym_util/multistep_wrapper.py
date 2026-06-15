@@ -103,6 +103,7 @@ class MultiStepWrapper(gym.Wrapper):
         self.info = defaultdict(lambda: deque(maxlen=self.n_obs_steps + 1))
 
         obs = self._get_obs(self.n_obs_steps)
+        #print("Reset MultiStepWrapper")
         return obs
 
     def step(self, action):

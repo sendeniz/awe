@@ -291,7 +291,6 @@ class RobomimicImageRunner(BaseImageRunner):
         all_rewards = [None] * n_inits
 
         for chunk_idx in range(n_chunks):
-            #print("chunk_idx:", chunk_idx)
             start = chunk_idx * n_envs
             end = min(n_inits, start + n_envs)
             this_global_slice = slice(start, end)
@@ -309,7 +308,6 @@ class RobomimicImageRunner(BaseImageRunner):
 
             # start rollout
             obs = env.reset()
-            #print("Past obs reset")
             past_action = None
             policy.reset()
 
@@ -332,7 +330,6 @@ class RobomimicImageRunner(BaseImageRunner):
             ang_vel_error_lst = []
 
             while not done:
-                
                 # create obs dict
                 np_obs_dict = dict(obs)
                 if self.past_action and (past_action is not None):
@@ -376,7 +373,6 @@ class RobomimicImageRunner(BaseImageRunner):
 
                 # fetch target velocities from controller
                 desired_vel_lin, desired_vel_ang = np.array(env.call("get_controller_lin_velocity")), np.array(env.call("get_controller_ang_velocity"))
-
 
                 controller_input = np.hstack((coordinates, gripper_states[:, np.newaxis]))
                 controller_inputs_lst.append(controller_input)
@@ -436,7 +432,7 @@ class RobomimicImageRunner(BaseImageRunner):
             # store euclid error per env 
             #save_to_json([avg_euclid_error], name = f"results/{self.task}/avg_euclid_error_{self.kp_gains}_{self.model}")
 
-            # save averaged velocities oveer time-step for each env
+            # save averaged velocities over time-step for each env
             #save_to_json(avg_lin_vel_error, name=f"results/{self.task}/avg_lin_vel_error_{self.kp_gains}_{self.model}")
             #save_to_json(avg_ang_vel_error, name=f"results/{self.task}/avg_ang_vel_error_{self.kp_gains}_{self.model}")
 
@@ -482,14 +478,12 @@ class RobomimicImageRunner(BaseImageRunner):
             # save velocity errors over all envs
             #save_to_json(mean_lin_vel_error, name = f"results/{self.task}/mean_lin_vel_error_{self.kp_gains}_{self.model}")
             #save_to_json(mean_ang_vel_error, name = f"results/{self.task}/mean_ang_vel_error_{self.kp_gains}_{self.model}")
-
             print(
                 f"[Summary] Task: {self.task} | kp: {self.kp_gains} | Model: {self.model} | "
                 f"Success: {success_rates:.4f}% | Reward: {mean_reward[0]:.4f} | "
-                f"3D Err: {mean_euclid_error[0]:.4f} | Lin Vel Err: {mean_lin_vel_error[0]:.4f} | "
+                f"3D Err: {mean_euclid_error[0]:.4f}m | Lin Vel Err: {mean_lin_vel_error[0]:.4f} | "
                 f"Ang Vel Err: {mean_ang_vel_error[0]:.4f}"
             )
-            
             # collect data for this round
             all_video_paths[this_global_slice] = env.render()[this_local_slice]
             all_rewards[this_global_slice] = env.call("get_attr", "reward")[

@@ -24,6 +24,7 @@ class VideoWrapper(gym.Wrapper):
             frame = self.env.render(mode=self.mode, **self.render_kwargs)
             assert frame.dtype == np.uint8
             self.frames.append(frame)
+        #print("Reset VideoWrapper")
         return obs
 
     def step(self, action):

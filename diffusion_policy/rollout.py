@@ -60,18 +60,18 @@ def move_task_results_to_run_folder(output_dir, task_name):
             )
 
 def main(args):
-    device = torch.device("cpu") #torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # Construct checkpoint path based on arguments
     if args.use_awe:
         model_type = "awe"
         print("Initialising AWE based model.")
-        ckpt_path = f"ckpts/{args.task}_awe_diffusion.ckpt"
+        ckpt_path = args.ckpt_path
         cfg = OmegaConf.load(f"config/waypoint_image_{args.task}_ph_diffusion_policy_transformer.yaml")
     else:
         model_type = "baseline"
         print("Initialising baseline model.")
-        ckpt_path = f"ckpts/{args.task}_diffusion.ckpt"
+        ckpt_path = args.ckpt_path
         cfg = OmegaConf.load(f"config/baseline_image_{args.task}_ph_diffusion_policy_transformer.yaml")
     
     if not os.path.exists(ckpt_path):
@@ -85,38 +85,7 @@ def main(args):
     policy_cfg = cfg["policy"]
     noise_scheduler = hydra.utils.instantiate(policy_cfg["noise_scheduler"]) 
     
-    #DDPMScheduler(
-    #    num_train_timesteps=policy_cfg["noise_scheduler"]["num_train_timesteps"],
-    #    beta_start=policy_cfg["noise_scheduler"]["beta_start"],
-    #    beta_end=policy_cfg["noise_scheduler"]["beta_end"],
-    #    beta_schedule=policy_cfg["noise_scheduler"]["beta_schedule"],
-    #    variance_type=policy_cfg["noise_scheduler"]["variance_type"],
-    #    clip_sample=policy_cfg["noise_scheduler"]["clip_sample"],
-    #    prediction_type=policy_cfg["noise_scheduler"]["prediction_type"],
-    #)
-
     policy = hydra.utils.instantiate(policy_cfg, noise_scheduler=noise_scheduler)
-    
-    #DiffusionTransformerHybridImagePolicy(
-    #    shape_meta=policy_cfg["shape_meta"],
-    #    noise_scheduler=noise_scheduler,
-    #    horizon=int(policy_cfg["horizon"]),
-    #    n_action_steps=int(policy_cfg["n_action_steps"]),
-    #    n_obs_steps=int(policy_cfg["n_obs_steps"]),
-    #    num_inference_steps=int(policy_cfg["num_inference_steps"]),
-    #    crop_shape=tuple(map(int, policy_cfg["crop_shape"])),
-    #    obs_encoder_group_norm=policy_cfg["obs_encoder_group_norm"],
-    #    eval_fixed_crop=policy_cfg["eval_fixed_crop"],
-    #    n_layer=int(policy_cfg["n_layer"]),
-    #    n_cond_layers=int(policy_cfg["n_cond_layers"]),
-    #    n_head=int(policy_cfg["n_head"]),
-    #    n_emb=int(policy_cfg["n_emb"]),
-    #    p_drop_emb=float(policy_cfg["p_drop_emb"]),
-    #    p_drop_attn=float(policy_cfg["p_drop_attn"]),
-    #    causal_attn=policy_cfg["causal_attn"],
-    #    time_as_cond=policy_cfg["time_as_cond"],
-    #    obs_as_cond=policy_cfg["obs_as_cond"],
-    #)
     
     ckpt = torch.load(ckpt_path, map_location=device)
     policy.load_state_dict(ckpt["state_dicts"]["ema_model"])
@@ -130,18 +99,20 @@ def main(args):
         
         # Update configuration with command line arguments
         run_cfg = deepcopy(cfg)
+
         run_cfg["task"]["env_runner"]["controller_configs"]["kp"] = args.kp
         run_cfg["task"]["env_runner"]["controller_configs"]["kp_limits"] = args.kp_limits
         run_cfg["task"]["env_runner"]["controller_configs"]["damping_limits"] = args.damping_limits
-        run_cfg["task"]["env_runner"]["n_envs"] = args.n_envs
         run_cfg["task"]["env_runner"]["n_test_vis"] = args.n_test_vis
+         # keep numbers insync: n_evals = n_envs = n_tests
+        run_cfg["n_eval"] = args.n_eval
+        run_cfg["task"]["env_runner"]["n_envs"] = args.n_eval 
         run_cfg["task"]["env_runner"]["n_test"] = args.n_test
-        # different start seed for each run for higher variation between runs
-        run_cfg["task"]["env_runner"]["test_start_seed"] = np.random.randint(0, 100000)
-        run_cfg["task"]["env_runner"]["multiplier"] = args.multiplier
-
+        # Ensure to use same env start seed for baseline vs. awe comparison
+        ndemos = run_cfg["n_demo"]
+        
         # Create output directory for this run
-        output_dir = os.path.join(f"results/{args.task}_{model_type}_kp_{args.kp}_run_{run}")
+        output_dir = os.path.join(f"results/{ndemos}demos_{args.task}_{model_type}_kp_{args.kp}_run_{run}")
         os.makedirs(output_dir, exist_ok=True)
          
         # Create new runner for each run
@@ -157,6 +128,7 @@ def main(args):
         move_task_results_to_run_folder(output_dir, f"{args.task}")
         
         # free gpu from env_runner
+        env_runner.env.close()
         del env_runner
         torch.cuda.empty_cache()
 
@@ -181,22 +153,22 @@ if __name__ == "__main__":
         help="Use the AWE version of the model (task_awe_diffusion.ckpt)"
     )
     parser.add_argument(
-        "--n_envs",
+        "--n_eval",
         type=int,
-        default=25,
-        help="Number of parallel environments to run."
+        default=100,
+        help="Number of parallel environments. Must match n_test."
+    )
+    parser.add_argument(
+        "--n_test",
+        type=int,
+        default=100,
+        help="Number of test episodes to run. Must match n_eval."
     )
     parser.add_argument(
         "--n_test_vis",
         type=int,
         default=0,
         help="Number of test episodes to visualize."
-    )
-    parser.add_argument(
-        "--n_test",
-        type=int,
-        default=25,
-        help="Number of test episodes to run - one for each env i.e., 20 envs means this should be 20 as well."
     )
     parser.add_argument(
         "--kp",
@@ -219,12 +191,6 @@ if __name__ == "__main__":
         help="Damping limits as two values (e.g., '--damping_limits 0 10')"
     )
     parser.add_argument(
-        "--multiplier",
-        type=int,
-        default=1,
-        help="Multiplier used for controller linear interpolation. Higher value smoother interpolation. "
-    )
-    parser.add_argument(
         "--n_runs",
         type=int,
         default=1,
@@ -236,8 +202,17 @@ if __name__ == "__main__":
         default="results",
         help="Base output directory for results"
     )
-
+    parser.add_argument(
+        "--ckpt_path",
+        type=str,
+        required=True,
+        help="Path to the checkpoint file."
+    )
     args = parser.parse_args()
+
+    # Warn if n_eval and n_test are out of sync
+    if args.n_eval != args.n_test:
+        print(f"WARNING: n_eval ({args.n_eval}) and n_test ({args.n_test}) do not match. This may cause index errors.")
     
     # Call main function with all arguments
     main(args)

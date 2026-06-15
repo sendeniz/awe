@@ -1,0 +1,7343 @@
+=== Do 26. Feb 01:29:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:29:26 CET 2026 ===
+FDs: 1284
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 34 / 4194304
+CPU usage: 3229535 95,7 0,0
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +41.5°C  
+---
+=== Do 26. Feb 01:29:38 CET 2026 ===
+FDs: 46999
+Total procs: 191
+Python procs: 84
+Zombie procs: 0
+PID usage: 197 / 4194304
+CPU usage: 3229535 100,0 0,2
+3230816 56,5 0,0
+3230813 52,2 0,2
+3230815 52,2 0,2
+3230513 43,5 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 01:29:51 CET 2026 ===
+FDs: 72754
+Total procs: 230
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230227 8,3 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:30:04 CET 2026 ===
+FDs: 73510
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 3230458 34,8 0,2
+3229535 4,3 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:30:18 CET 2026 ===
+FDs: 72434
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 3230673 37,5 0,2
+3230172 16,7 0,2
+3230752 4,2 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:30:31 CET 2026 ===
+FDs: 73213
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:30:44 CET 2026 ===
+FDs: 73282
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 3230503 52,2 0,2
+3230513 52,2 0,2
+3234169 21,7 0,0
+3230510 13,0 0,2
+3230500 4,3 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.2°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 01:30:57 CET 2026 ===
+FDs: 72198
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3234738 56,5 0,0
+3230834 47,8 0,2
+3230183 43,5 0,2
+3234741 21,7 0,0
+3229535 0,0 0,2
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +33.8°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:31:11 CET 2026 ===
+FDs: 73395
+Total procs: 231
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230366 47,8 0,2
+3235339 4,3 0,0
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:31:24 CET 2026 ===
+FDs: 72948
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230579 50,0 0,2
+3230594 33,3 0,2
+3235928 29,2 0,0
+3229535 0,0 0,2
+3230148 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:31:37 CET 2026 ===
+FDs: 72337
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230192 16,7 0,2
+3230189 8,3 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:31:50 CET 2026 ===
+FDs: 73292
+Total procs: 230
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230451 33,3 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +37.8°C  
+---
+=== Do 26. Feb 01:32:04 CET 2026 ===
+FDs: 72743
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:32:17 CET 2026 ===
+FDs: 72903
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.9°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:32:30 CET 2026 ===
+FDs: 73380
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230479 36,4 0,2
+3239122 22,7 0,0
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:32:43 CET 2026 ===
+FDs: 72508
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230798 47,8 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +33.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:32:57 CET 2026 ===
+FDs: 73300
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:33:10 CET 2026 ===
+FDs: 73139
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230527 39,1 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +34.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:33:23 CET 2026 ===
+FDs: 72483
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 229 / 4194304
+CPU usage: 3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:33:36 CET 2026 ===
+FDs: 73140
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230423 56,5 0,2
+3230366 47,8 0,2
+3230417 47,8 0,2
+3242571 47,8 0,0
+3230414 39,1 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:33:50 CET 2026 ===
+FDs: 72185
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230237 52,2 0,2
+3243248 47,8 0,0
+3230261 13,0 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.9°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:34:03 CET 2026 ===
+FDs: 70720
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 229 / 4194304
+CPU usage: 3230271 52,2 0,2
+3230479 47,8 0,2
+3244073 47,8 0,0
+3230172 43,5 0,2
+3230803 34,8 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.9°C  
+Tccd1:        +34.0°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 01:34:16 CET 2026 ===
+FDs: 70578
+Total procs: 229
+Python procs: 103
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 3230557 39,1 0,2
+3230586 26,1 0,2
+3229535 0,0 0,2
+3230148 0,0 0,2
+3230170 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +33.2°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 01:34:30 CET 2026 ===
+FDs: 70442
+Total procs: 229
+Python procs: 103
+Zombie procs: 0
+PID usage: 229 / 4194304
+CPU usage: 3230554 39,1 0,2
+3230517 34,8 0,2
+3230844 34,8 0,2
+3230547 30,4 0,2
+3230458 13,0 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +33.2°C  
+Tccd3:        +38.5°C  
+---
+=== Do 26. Feb 01:34:43 CET 2026 ===
+FDs: 69489
+Total procs: 206
+Python procs: 104
+Zombie procs: 0
+PID usage: 199 / 4194304
+CPU usage: 3230414 222,7 0,2
+3230417 172,7 0,2
+3230271 136,4 0,2
+3230258 100,0 0,2
+3230366 100,0 0,2
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +43.1°C  
+Tccd1:        +38.0°C  
+Tccd3:        +39.0°C  
+---
+=== Do 26. Feb 01:34:56 CET 2026 ===
+FDs: 65169
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 3229535 91,7 0,3
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +43.0°C  
+Tccd1:        +34.0°C  
+Tccd3:        +36.8°C  
+---
+=== Do 26. Feb 01:35:10 CET 2026 ===
+FDs: 65072
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 3230886 191,7 0,2
+3230744 179,2 0,2
+3230524 170,8 0,2
+3230503 166,7 0,2
+3230261 129,2 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +46.0°C  
+Tccd1:        +40.5°C  
+Tccd3:        +39.8°C  
+---
+=== Do 26. Feb 01:35:24 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 3230847 161,5 0,2
+3230183 157,7 0,2
+3230454 153,8 0,2
+3230533 153,8 0,2
+3230813 153,8 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.1°C  
+Tccd1:        +44.0°C  
+Tccd3:        +46.5°C  
+---
+=== Do 26. Feb 01:35:38 CET 2026 ===
+FDs: 65104
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 3230227 172,0 0,2
+3230489 168,0 0,2
+3230517 164,0 0,2
+3230847 164,0 0,2
+3230527 160,0 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.5°C  
+Tccd1:        +45.2°C  
+Tccd3:        +47.2°C  
+---
+=== Do 26. Feb 01:35:51 CET 2026 ===
+FDs: 65120
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 3230434 157,7 0,2
+3230430 153,8 0,2
+3230187 150,0 0,2
+3230510 150,0 0,2
+3230185 146,2 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.5°C  
+Tccd1:        +45.5°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 01:36:05 CET 2026 ===
+FDs: 65070
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 3230666 188,9 0,2
+3230246 174,1 0,2
+3230776 170,4 0,2
+3230868 166,7 0,2
+3230636 163,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +46.8°C  
+Tccd3:        +49.0°C  
+---
+=== Do 26. Feb 01:36:19 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 3230231 165,4 0,2
+3230489 157,7 0,2
+3230192 153,8 0,2
+3230420 153,8 0,2
+3230436 153,8 0,2
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.2°C  
+Tccd1:        +45.8°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 01:36:33 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 3229535 100,0 0,4
+3230148 0,0 0,2
+3230170 0,0 0,2
+3230172 0,0 0,2
+3230183 0,0 0,2
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.0°C  
+Tccd1:        +38.2°C  
+Tccd3:        +44.8°C  
+---
+=== Do 26. Feb 01:36:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +39.5°C  
+Tccd1:        +36.2°C  
+Tccd3:        +39.0°C  
+---
+=== Do 26. Feb 01:36:59 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.0°C  
+Tccd1:        +34.8°C  
+Tccd3:        +38.0°C  
+---
+=== Do 26. Feb 01:37:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +34.0°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 01:37:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +33.8°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 01:37:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 01:37:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:37:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:38:07 CET 2026 ===
+FDs: 941
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 34 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:38:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:38:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:38:42 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:38:53 CET 2026 ===
+FDs: 941
+Total procs: 33
+Python procs: 0
+Zombie procs: 0
+PID usage: 35 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:39:04 CET 2026 ===
+FDs: 1441
+Total procs: 34
+Python procs: 1
+Zombie procs: 0
+PID usage: 36 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:39:16 CET 2026 ===
+FDs: 18957
+Total procs: 92
+Python procs: 32
+Zombie procs: 0
+PID usage: 97 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:39:28 CET 2026 ===
+FDs: 19744
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +33.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:39:40 CET 2026 ===
+FDs: 19695
+Total procs: 92
+Python procs: 33
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:39:52 CET 2026 ===
+FDs: 19630
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 01:40:04 CET 2026 ===
+FDs: 19453
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:40:16 CET 2026 ===
+FDs: 19477
+Total procs: 92
+Python procs: 33
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:40:28 CET 2026 ===
+FDs: 18911
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +33.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:40:40 CET 2026 ===
+FDs: 18724
+Total procs: 89
+Python procs: 31
+Zombie procs: 0
+PID usage: 85 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.8°C  
+Tccd1:        +35.8°C  
+Tccd3:        +42.5°C  
+---
+=== Do 26. Feb 01:40:52 CET 2026 ===
+FDs: 17314
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +43.2°C  
+Tccd1:        +38.0°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 01:41:04 CET 2026 ===
+FDs: 17367
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +40.0°C  
+Tccd3:        +37.8°C  
+---
+=== Do 26. Feb 01:41:16 CET 2026 ===
+FDs: 17314
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.1°C  
+Tccd1:        +46.0°C  
+Tccd3:        +48.5°C  
+---
+=== Do 26. Feb 01:41:28 CET 2026 ===
+FDs: 17272
+Total procs: 63
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.2°C  
+Tccd1:        +49.8°C  
+Tccd3:        +51.8°C  
+---
+=== Do 26. Feb 01:41:40 CET 2026 ===
+FDs: 17322
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.9°C  
+Tccd1:        +36.8°C  
+Tccd3:        +39.0°C  
+---
+=== Do 26. Feb 01:41:52 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +39.4°C  
+Tccd1:        +34.2°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 01:42:03 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +34.2°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 01:42:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +33.0°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 01:42:26 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:42:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 01:42:49 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:43:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:43:12 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:43:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:43:35 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.9°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:43:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:43:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:44:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 01:44:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 01:44:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:44:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 01:44:55 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:45:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:45:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 01:45:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 01:45:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 01:45:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 01:46:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:46:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:46:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:46:39 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:46:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:47:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:47:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:47:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:47:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:47:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:47:59 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 01:48:10 CET 2026 ===
+FDs: 983
+Total procs: 33
+Python procs: 0
+Zombie procs: 0
+PID usage: 35 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.9°C  
+Tccd1:        +32.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:48:22 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:48:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 01:48:44 CET 2026 ===
+FDs: 1324
+Total procs: 34
+Python procs: 1
+Zombie procs: 0
+PID usage: 36 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 01:48:56 CET 2026 ===
+FDs: 41673
+Total procs: 175
+Python procs: 77
+Zombie procs: 0
+PID usage: 182 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 01:49:09 CET 2026 ===
+FDs: 72634
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:49:22 CET 2026 ===
+FDs: 73709
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:49:36 CET 2026 ===
+FDs: 72612
+Total procs: 229
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 01:49:49 CET 2026 ===
+FDs: 73085
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 01:50:02 CET 2026 ===
+FDs: 73309
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.8°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 01:50:15 CET 2026 ===
+FDs: 71964
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:50:29 CET 2026 ===
+FDs: 73369
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:50:42 CET 2026 ===
+FDs: 73171
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:50:55 CET 2026 ===
+FDs: 72069
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:51:09 CET 2026 ===
+FDs: 73312
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 01:51:22 CET 2026 ===
+FDs: 72896
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:51:35 CET 2026 ===
+FDs: 72538
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:51:48 CET 2026 ===
+FDs: 73304
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:52:02 CET 2026 ===
+FDs: 73095
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:52:15 CET 2026 ===
+FDs: 72974
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:52:28 CET 2026 ===
+FDs: 73198
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +33.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:52:41 CET 2026 ===
+FDs: 72426
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.9°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:52:54 CET 2026 ===
+FDs: 73257
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:53:07 CET 2026 ===
+FDs: 72258
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 01:53:21 CET 2026 ===
+FDs: 71004
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 228 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +33.8°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 01:53:34 CET 2026 ===
+FDs: 70633
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +32.5°C  
+Tccd3:        +36.8°C  
+---
+=== Do 26. Feb 01:53:47 CET 2026 ===
+FDs: 70540
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +36.0°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 01:54:00 CET 2026 ===
+FDs: 69847
+Total procs: 213
+Python procs: 104
+Zombie procs: 0
+PID usage: 216 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +42.4°C  
+Tccd1:        +39.8°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 01:54:14 CET 2026 ===
+FDs: 65836
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +46.5°C  
+Tccd1:        +44.8°C  
+Tccd3:        +44.8°C  
+---
+=== Do 26. Feb 01:54:27 CET 2026 ===
+FDs: 65105
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +45.2°C  
+Tccd1:        +43.0°C  
+Tccd3:        +45.0°C  
+---
+=== Do 26. Feb 01:54:40 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +45.5°C  
+Tccd1:        +44.2°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 01:54:54 CET 2026 ===
+FDs: 65120
+Total procs: 133
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.2°C  
+Tccd1:        +45.0°C  
+Tccd3:        +47.5°C  
+---
+=== Do 26. Feb 01:55:08 CET 2026 ===
+FDs: 65105
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.0°C  
+Tccd1:        +45.0°C  
+Tccd3:        +47.0°C  
+---
+=== Do 26. Feb 01:55:22 CET 2026 ===
+FDs: 65072
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.1°C  
+Tccd1:        +42.5°C  
+Tccd3:        +41.2°C  
+---
+=== Do 26. Feb 01:55:36 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +46.0°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 01:55:50 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.0°C  
+Tccd1:        +45.5°C  
+Tccd3:        +48.5°C  
+---
+=== Do 26. Feb 01:56:04 CET 2026 ===
+FDs: 1409
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +44.2°C  
+Tccd1:        +38.2°C  
+Tccd3:        +41.5°C  
+---
+=== Do 26. Feb 01:56:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +39.0°C  
+Tccd1:        +36.2°C  
+Tccd3:        +38.5°C  
+---
+=== Do 26. Feb 01:56:26 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +38.1°C  
+Tccd1:        +34.8°C  
+Tccd3:        +38.0°C  
+---
+=== Do 26. Feb 01:56:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +34.0°C  
+Tccd3:        +37.0°C  
+---
+=== Do 26. Feb 01:56:49 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +33.5°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 01:57:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 01:57:12 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:57:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 01:57:35 CET 2026 ===
+FDs: 939
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:57:47 CET 2026 ===
+FDs: 991
+Total procs: 33
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:57:58 CET 2026 ===
+FDs: 1365
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 36 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.9°C  
+Tccd1:        +35.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:58:10 CET 2026 ===
+FDs: 15724
+Total procs: 92
+Python procs: 32
+Zombie procs: 0
+PID usage: 90 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 01:58:22 CET 2026 ===
+FDs: 19169
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +34.8°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:58:35 CET 2026 ===
+FDs: 19826
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 95 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +37.8°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:58:46 CET 2026 ===
+FDs: 19559
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 01:58:58 CET 2026 ===
+FDs: 19525
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 01:59:11 CET 2026 ===
+FDs: 19531
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 01:59:22 CET 2026 ===
+FDs: 18887
+Total procs: 91
+Python procs: 34
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 01:59:34 CET 2026 ===
+FDs: 18836
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 91 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +39.5°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 01:59:47 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +49.4°C  
+Tccd1:        +45.0°C  
+Tccd3:        +47.5°C  
+---
+=== Do 26. Feb 01:59:58 CET 2026 ===
+FDs: 17315
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +46.5°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 02:00:10 CET 2026 ===
+FDs: 17272
+Total procs: 63
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.5°C  
+Tccd1:        +44.5°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 02:00:22 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.6°C  
+Tccd1:        +36.2°C  
+Tccd3:        +38.2°C  
+---
+=== Do 26. Feb 02:00:34 CET 2026 ===
+FDs: 17368
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 66 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.5°C  
+Tccd1:        +44.8°C  
+Tccd3:        +49.0°C  
+---
+=== Do 26. Feb 02:00:46 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +40.2°C  
+Tccd1:        +35.2°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 02:00:57 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.9°C  
+Tccd1:        +34.5°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 02:01:09 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +33.0°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 02:01:20 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:01:32 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:01:43 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 02:01:55 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:02:06 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 02:02:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:02:29 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:02:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:02:52 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:03:03 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:03:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:03:26 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:03:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:03:49 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +33.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:04:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:04:12 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.1°C  
+Tccd1:        +31.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:04:23 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:04:35 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:04:46 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:04:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.1°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:05:09 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.4°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:05:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:05:32 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:05:43 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:05:55 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:06:06 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:06:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:06:29 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:06:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:06:52 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:07:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:07:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:07:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:07:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:07:49 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:08:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.8°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 02:08:12 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:08:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:08:35 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:08:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:08:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:09:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:09:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:09:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:09:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:09:55 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:10:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:10:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:10:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:10:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:10:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:11:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:11:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:11:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:11:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:11:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:12:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:12:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:12:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:12:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:12:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:12:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:13:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:13:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:13:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:13:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:13:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:14:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:14:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:14:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:14:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:14:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:15:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:15:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:15:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:15:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:15:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:16:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:16:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:16:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:16:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:16:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:16:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:17:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:17:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:17:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +38.2°C  
+---
+=== Do 26. Feb 02:17:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:17:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:18:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:18:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:18:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:18:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:18:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:19:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:19:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:19:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:19:39 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:19:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:20:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:20:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:20:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:20:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:20:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:20:59 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:21:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:21:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:21:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:21:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:21:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:22:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.2°C  
+---
+=== Do 26. Feb 02:22:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:22:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +33.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:22:42 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:22:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:23:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:23:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:23:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.2°C  
+---
+=== Do 26. Feb 02:23:39 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:23:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:24:02 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:24:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:24:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:24:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:24:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 31 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:24:59 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:25:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:25:22 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:25:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:25:45 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:25:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:26:08 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:26:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:26:31 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +32.9°C  
+Tccd1:        +30.2°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:26:42 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:26:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:27:05 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:27:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +32.9°C  
+Tccd1:        +30.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:27:28 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +32.9°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.2°C  
+---
+=== Do 26. Feb 02:27:39 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +30.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:27:51 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.1°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:28:02 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:28:14 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:28:25 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.0°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.2°C  
+---
+=== Do 26. Feb 02:28:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:28:48 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:28:59 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:29:11 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:29:22 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:29:34 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:29:45 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:29:57 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.8°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:30:08 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:30:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:30:31 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:30:42 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:30:54 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:31:05 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:31:17 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:31:28 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:31:40 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:31:51 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:32:03 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:32:14 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:32:25 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:32:37 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:32:48 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:33:00 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:33:11 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.5°C  
+---
+=== Do 26. Feb 02:33:23 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:33:34 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:33:45 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:33:57 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.0°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:34:08 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:34:20 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +32.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:34:31 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +50.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:34:43 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.4°C  
+Tccd1:        +31.2°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:34:54 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +30.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:35:05 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.2°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:35:17 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.8°C  
+Tccd3:        +33.0°C  
+---
+=== Do 26. Feb 02:35:28 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +30.5°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:35:40 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:35:51 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +30.8°C  
+Tccd3:        +32.8°C  
+---
+=== Do 26. Feb 02:36:03 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.0°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 02:36:14 CET 2026 ===
+FDs: 1066
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +30.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:36:26 CET 2026 ===
+FDs: 30885
+Total procs: 141
+Python procs: 63
+Zombie procs: 0
+PID usage: 149 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 02:36:39 CET 2026 ===
+FDs: 72502
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +34.5°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 02:36:52 CET 2026 ===
+FDs: 73687
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:37:05 CET 2026 ===
+FDs: 72740
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:37:19 CET 2026 ===
+FDs: 72908
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 02:37:32 CET 2026 ===
+FDs: 73268
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:37:45 CET 2026 ===
+FDs: 72289
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:37:59 CET 2026 ===
+FDs: 73316
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:38:12 CET 2026 ===
+FDs: 73099
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:38:25 CET 2026 ===
+FDs: 71979
+Total procs: 229
+Python procs: 104
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 02:38:38 CET 2026 ===
+FDs: 73458
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 02:38:52 CET 2026 ===
+FDs: 72959
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:39:05 CET 2026 ===
+FDs: 72345
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +35.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:39:18 CET 2026 ===
+FDs: 73487
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:39:31 CET 2026 ===
+FDs: 72782
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +32.0°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:39:44 CET 2026 ===
+FDs: 73048
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:39:58 CET 2026 ===
+FDs: 73086
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:40:11 CET 2026 ===
+FDs: 72531
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:40:24 CET 2026 ===
+FDs: 73171
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:40:37 CET 2026 ===
+FDs: 72560
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 229 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.4°C  
+Tccd1:        +32.0°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:40:51 CET 2026 ===
+FDs: 71105
+Total procs: 229
+Python procs: 103
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.4°C  
+Tccd1:        +34.2°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 02:41:04 CET 2026 ===
+FDs: 70584
+Total procs: 231
+Python procs: 102
+Zombie procs: 0
+PID usage: 227 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +33.2°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:41:17 CET 2026 ===
+FDs: 69650
+Total procs: 230
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.4°C  
+Tccd1:        +35.5°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 02:41:30 CET 2026 ===
+FDs: 70012
+Total procs: 217
+Python procs: 101
+Zombie procs: 0
+PID usage: 218 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +40.4°C  
+Tccd1:        +35.0°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:41:43 CET 2026 ===
+FDs: 65703
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +46.5°C  
+Tccd1:        +43.5°C  
+Tccd3:        +45.5°C  
+---
+=== Do 26. Feb 02:41:57 CET 2026 ===
+FDs: 65120
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +45.0°C  
+Tccd1:        +43.0°C  
+Tccd3:        +45.5°C  
+---
+=== Do 26. Feb 02:42:10 CET 2026 ===
+FDs: 65112
+Total procs: 133
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +45.1°C  
+Tccd1:        +39.2°C  
+Tccd3:        +38.5°C  
+---
+=== Do 26. Feb 02:42:24 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.2°C  
+Tccd1:        +44.8°C  
+Tccd3:        +47.2°C  
+---
+=== Do 26. Feb 02:42:38 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +43.2°C  
+Tccd3:        +46.8°C  
+---
+=== Do 26. Feb 02:42:52 CET 2026 ===
+FDs: 65120
+Total procs: 133
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +48.2°C  
+Tccd1:        +46.5°C  
+Tccd3:        +48.2°C  
+---
+=== Do 26. Feb 02:43:06 CET 2026 ===
+FDs: 65105
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.0°C  
+Tccd1:        +45.5°C  
+Tccd3:        +48.5°C  
+---
+=== Do 26. Feb 02:43:19 CET 2026 ===
+FDs: 65070
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +49.1°C  
+Tccd1:        +41.2°C  
+Tccd3:        +47.2°C  
+---
+=== Do 26. Feb 02:43:33 CET 2026 ===
+FDs: 1673
+Total procs: 69
+Python procs: 1
+Zombie procs: 0
+PID usage: 34 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +44.4°C  
+Tccd1:        +38.5°C  
+Tccd3:        +40.5°C  
+---
+=== Do 26. Feb 02:43:45 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.5°C  
+Tccd1:        +35.8°C  
+Tccd3:        +38.2°C  
+---
+=== Do 26. Feb 02:43:57 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +34.5°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 02:44:08 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +34.2°C  
+Tccd3:        +36.8°C  
+---
+=== Do 26. Feb 02:44:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +33.8°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 02:44:31 CET 2026 ===
+FDs: 1067
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +33.2°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 02:44:42 CET 2026 ===
+FDs: 1388
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +34.8°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 02:44:54 CET 2026 ===
+FDs: 19683
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.5°C  
+Tccd3:        +38.5°C  
+---
+=== Do 26. Feb 02:45:06 CET 2026 ===
+FDs: 19746
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:45:18 CET 2026 ===
+FDs: 19643
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 92 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:45:30 CET 2026 ===
+FDs: 19441
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:45:42 CET 2026 ===
+FDs: 19630
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 02:45:54 CET 2026 ===
+FDs: 19925
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 02:46:06 CET 2026 ===
+FDs: 18781
+Total procs: 94
+Python procs: 32
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.2°C  
+Tccd1:        +40.0°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:46:18 CET 2026 ===
+FDs: 17283
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +45.9°C  
+Tccd1:        +34.5°C  
+Tccd3:        +42.2°C  
+---
+=== Do 26. Feb 02:46:30 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +45.5°C  
+Tccd1:        +43.2°C  
+Tccd3:        +44.2°C  
+---
+=== Do 26. Feb 02:46:41 CET 2026 ===
+FDs: 17367
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +47.2°C  
+Tccd3:        +48.0°C  
+---
+=== Do 26. Feb 02:46:53 CET 2026 ===
+FDs: 17285
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.9°C  
+Tccd1:        +47.2°C  
+Tccd3:        +48.5°C  
+---
+=== Do 26. Feb 02:47:05 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +36.5°C  
+Tccd3:        +42.5°C  
+---
+=== Do 26. Feb 02:47:17 CET 2026 ===
+FDs: 17318
+Total procs: 65
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.9°C  
+Tccd1:        +48.5°C  
+Tccd3:        +47.0°C  
+---
+=== Do 26. Feb 02:47:29 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.2°C  
+Tccd1:        +34.5°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 02:47:40 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +33.8°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:47:52 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 02:48:03 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:48:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:48:26 CET 2026 ===
+FDs: 991
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.1°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:48:38 CET 2026 ===
+FDs: 991
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:48:49 CET 2026 ===
+FDs: 1454
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.6°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:49:01 CET 2026 ===
+FDs: 71303
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.0°C  
+Tccd1:        +33.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:49:14 CET 2026 ===
+FDs: 73390
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:49:27 CET 2026 ===
+FDs: 73274
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +34.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:49:40 CET 2026 ===
+FDs: 72081
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:49:53 CET 2026 ===
+FDs: 73347
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:50:07 CET 2026 ===
+FDs: 72978
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.2°C  
+Tccd3:        +36.8°C  
+---
+=== Do 26. Feb 02:50:20 CET 2026 ===
+FDs: 72769
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:50:33 CET 2026 ===
+FDs: 73426
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:50:46 CET 2026 ===
+FDs: 72637
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 02:50:59 CET 2026 ===
+FDs: 73132
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:51:13 CET 2026 ===
+FDs: 73277
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:51:26 CET 2026 ===
+FDs: 72202
+Total procs: 229
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +32.2°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:51:39 CET 2026 ===
+FDs: 73295
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +35.2°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:51:52 CET 2026 ===
+FDs: 72888
+Total procs: 231
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:52:06 CET 2026 ===
+FDs: 72709
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:52:19 CET 2026 ===
+FDs: 73405
+Total procs: 231
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.8°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 02:52:32 CET 2026 ===
+FDs: 72527
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.8°C  
+Tccd1:        +34.2°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:52:46 CET 2026 ===
+FDs: 73067
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 02:52:59 CET 2026 ===
+FDs: 72468
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:53:12 CET 2026 ===
+FDs: 70790
+Total procs: 229
+Python procs: 102
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.9°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 02:53:25 CET 2026 ===
+FDs: 70494
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 228 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.0°C  
+Tccd1:        +33.5°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:53:39 CET 2026 ===
+FDs: 70482
+Total procs: 222
+Python procs: 104
+Zombie procs: 0
+PID usage: 223 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +42.2°C  
+Tccd1:        +43.0°C  
+Tccd3:        +40.8°C  
+---
+=== Do 26. Feb 02:53:52 CET 2026 ===
+FDs: 69527
+Total procs: 210
+Python procs: 101
+Zombie procs: 0
+PID usage: 209 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +43.8°C  
+Tccd1:        +35.5°C  
+Tccd3:        +41.5°C  
+---
+=== Do 26. Feb 02:54:05 CET 2026 ===
+FDs: 65149
+Total procs: 136
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.4°C  
+Tccd1:        +37.8°C  
+Tccd3:        +43.0°C  
+---
+=== Do 26. Feb 02:54:18 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +45.1°C  
+Tccd1:        +42.8°C  
+Tccd3:        +45.0°C  
+---
+=== Do 26. Feb 02:54:32 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 132 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +44.0°C  
+Tccd3:        +46.8°C  
+---
+=== Do 26. Feb 02:54:46 CET 2026 ===
+FDs: 65120
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +42.5°C  
+Tccd3:        +40.0°C  
+---
+=== Do 26. Feb 02:55:00 CET 2026 ===
+FDs: 65070
+Total procs: 133
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.9°C  
+Tccd1:        +46.2°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 02:55:14 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.8°C  
+Tccd1:        +41.5°C  
+Tccd3:        +40.8°C  
+---
+=== Do 26. Feb 02:55:28 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.8°C  
+Tccd1:        +46.8°C  
+Tccd3:        +49.5°C  
+---
+=== Do 26. Feb 02:55:42 CET 2026 ===
+FDs: 65120
+Total procs: 133
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +46.0°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 02:55:55 CET 2026 ===
+FDs: 1405
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +44.1°C  
+Tccd1:        +37.8°C  
+Tccd3:        +40.5°C  
+---
+=== Do 26. Feb 02:56:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.8°C  
+Tccd1:        +35.8°C  
+Tccd3:        +38.2°C  
+---
+=== Do 26. Feb 02:56:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +34.8°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 02:56:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.0°C  
+Tccd1:        +36.0°C  
+Tccd3:        +38.0°C  
+---
+=== Do 26. Feb 02:56:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.9°C  
+Tccd1:        +37.2°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 02:56:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 02:57:04 CET 2026 ===
+FDs: 1388
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +33.0°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 02:57:16 CET 2026 ===
+FDs: 19699
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.2°C  
+Tccd1:        +33.2°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 02:57:28 CET 2026 ===
+FDs: 19701
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +34.5°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 02:57:40 CET 2026 ===
+FDs: 19497
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +32.8°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 02:57:52 CET 2026 ===
+FDs: 19512
+Total procs: 93
+Python procs: 32
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 02:58:04 CET 2026 ===
+FDs: 19888
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:58:15 CET 2026 ===
+FDs: 19675
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 02:58:28 CET 2026 ===
+FDs: 18758
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 92 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +33.0°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 02:58:40 CET 2026 ===
+FDs: 17266
+Total procs: 63
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +42.0°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 02:58:52 CET 2026 ===
+FDs: 17365
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +45.8°C  
+Tccd1:        +44.5°C  
+Tccd3:        +41.5°C  
+---
+=== Do 26. Feb 02:59:03 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.0°C  
+Tccd1:        +46.0°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 02:59:15 CET 2026 ===
+FDs: 17272
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.6°C  
+Tccd1:        +47.8°C  
+Tccd3:        +51.0°C  
+---
+=== Do 26. Feb 02:59:27 CET 2026 ===
+FDs: 17367
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +40.5°C  
+Tccd3:        +39.5°C  
+---
+=== Do 26. Feb 02:59:39 CET 2026 ===
+FDs: 17315
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.1°C  
+Tccd1:        +37.5°C  
+Tccd3:        +41.0°C  
+---
+=== Do 26. Feb 02:59:51 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.8°C  
+Tccd1:        +33.8°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:00:02 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +33.0°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 03:00:14 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:00:25 CET 2026 ===
+FDs: 1337
+Total procs: 34
+Python procs: 1
+Zombie procs: 0
+PID usage: 36 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.8°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 03:00:37 CET 2026 ===
+FDs: 36029
+Total procs: 157
+Python procs: 67
+Zombie procs: 0
+PID usage: 160 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.6°C  
+Tccd1:        +36.2°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 03:00:49 CET 2026 ===
+FDs: 72442
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.9°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 03:01:03 CET 2026 ===
+FDs: 73605
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:01:16 CET 2026 ===
+FDs: 72712
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +36.2°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 03:01:29 CET 2026 ===
+FDs: 73140
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 03:01:42 CET 2026 ===
+FDs: 73308
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 228 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.4°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:01:55 CET 2026 ===
+FDs: 71921
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +32.5°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 03:02:09 CET 2026 ===
+FDs: 73332
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +33.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:02:22 CET 2026 ===
+FDs: 73021
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +35.0°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 03:02:35 CET 2026 ===
+FDs: 72386
+Total procs: 230
+Python procs: 102
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:02:48 CET 2026 ===
+FDs: 73516
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +34.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:03:02 CET 2026 ===
+FDs: 72578
+Total procs: 228
+Python procs: 104
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:03:15 CET 2026 ===
+FDs: 72963
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.4°C  
+Tccd1:        +32.0°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:03:28 CET 2026 ===
+FDs: 73368
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:03:42 CET 2026 ===
+FDs: 72432
+Total procs: 234
+Python procs: 101
+Zombie procs: 0
+PID usage: 230 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.4°C  
+Tccd1:        +33.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:03:55 CET 2026 ===
+FDs: 73321
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:04:08 CET 2026 ===
+FDs: 73068
+Total procs: 230
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +33.2°C  
+Tccd3:        +38.0°C  
+---
+=== Do 26. Feb 03:04:21 CET 2026 ===
+FDs: 72114
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +35.5°C  
+Tccd3:        +35.8°C  
+---
+=== Do 26. Feb 03:04:35 CET 2026 ===
+FDs: 72992
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.1°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:04:48 CET 2026 ===
+FDs: 72071
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +32.8°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 03:05:01 CET 2026 ===
+FDs: 70119
+Total procs: 231
+Python procs: 101
+Zombie procs: 0
+PID usage: 231 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +37.5°C  
+Tccd1:        +34.8°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:05:15 CET 2026 ===
+FDs: 70672
+Total procs: 229
+Python procs: 103
+Zombie procs: 0
+PID usage: 229 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +38.1°C  
+Tccd1:        +34.5°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 03:05:28 CET 2026 ===
+FDs: 70215
+Total procs: 223
+Python procs: 102
+Zombie procs: 0
+PID usage: 220 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +40.9°C  
+Tccd1:        +35.8°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 03:05:41 CET 2026 ===
+FDs: 68642
+Total procs: 198
+Python procs: 102
+Zombie procs: 0
+PID usage: 197 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +44.5°C  
+Tccd1:        +38.5°C  
+Tccd3:        +42.2°C  
+---
+=== Do 26. Feb 03:05:55 CET 2026 ===
+FDs: 65118
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +41.0°C  
+Tccd1:        +38.2°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:06:08 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +45.5°C  
+Tccd1:        +43.2°C  
+Tccd3:        +45.8°C  
+---
+=== Do 26. Feb 03:06:21 CET 2026 ===
+FDs: 65120
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 133 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.2°C  
+Tccd1:        +45.5°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 03:06:35 CET 2026 ===
+FDs: 65105
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.5°C  
+Tccd1:        +45.5°C  
+Tccd3:        +47.5°C  
+---
+=== Do 26. Feb 03:06:49 CET 2026 ===
+FDs: 65070
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.2°C  
+Tccd1:        +45.8°C  
+Tccd3:        +48.0°C  
+---
+=== Do 26. Feb 03:07:03 CET 2026 ===
+FDs: 65073
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.0°C  
+Tccd1:        +46.0°C  
+Tccd3:        +48.8°C  
+---
+=== Do 26. Feb 03:07:17 CET 2026 ===
+FDs: 65105
+Total procs: 131
+Python procs: 101
+Zombie procs: 0
+PID usage: 131 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +49.0°C  
+Tccd1:        +39.8°C  
+Tccd3:        +44.0°C  
+---
+=== Do 26. Feb 03:07:31 CET 2026 ===
+FDs: 65120
+Total procs: 134
+Python procs: 101
+Zombie procs: 0
+PID usage: 134 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.8°C  
+Tccd1:        +47.0°C  
+Tccd3:        +49.2°C  
+---
+=== Do 26. Feb 03:07:45 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +41.0°C  
+Tccd1:        +37.0°C  
+Tccd3:        +39.0°C  
+---
+=== Do 26. Feb 03:07:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +39.2°C  
+Tccd1:        +35.5°C  
+Tccd3:        +38.2°C  
+---
+=== Do 26. Feb 03:08:08 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +38.1°C  
+Tccd1:        +34.8°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 03:08:19 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.8°C  
+Tccd1:        +34.2°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:08:30 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +36.6°C  
+Tccd1:        +33.8°C  
+Tccd3:        +37.0°C  
+---
+=== Do 26. Feb 03:08:42 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +33.2°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:08:53 CET 2026 ===
+FDs: 991
+Total procs: 33
+Python procs: 0
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:09:05 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +32.5°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:09:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +33.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:09:28 CET 2026 ===
+FDs: 953
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +33.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:09:39 CET 2026 ===
+FDs: 18829
+Total procs: 94
+Python procs: 32
+Zombie procs: 0
+PID usage: 95 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +32.5°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 03:09:52 CET 2026 ===
+FDs: 19348
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:10:04 CET 2026 ===
+FDs: 19574
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:10:16 CET 2026 ===
+FDs: 19676
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:10:28 CET 2026 ===
+FDs: 19597
+Total procs: 91
+Python procs: 35
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.4°C  
+Tccd1:        +34.2°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:10:39 CET 2026 ===
+FDs: 19448
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.8°C  
+---
+=== Do 26. Feb 03:10:51 CET 2026 ===
+FDs: 18648
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.1°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:11:04 CET 2026 ===
+FDs: 18080
+Total procs: 79
+Python procs: 32
+Zombie procs: 0
+PID usage: 78 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +47.5°C  
+Tccd1:        +40.0°C  
+Tccd3:        +39.8°C  
+---
+=== Do 26. Feb 03:11:16 CET 2026 ===
+FDs: 17367
+Total procs: 67
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +46.0°C  
+Tccd1:        +34.8°C  
+Tccd3:        +36.8°C  
+---
+=== Do 26. Feb 03:11:28 CET 2026 ===
+FDs: 17315
+Total procs: 65
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +46.8°C  
+Tccd1:        +42.8°C  
+Tccd3:        +37.5°C  
+---
+=== Do 26. Feb 03:11:40 CET 2026 ===
+FDs: 17314
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +46.5°C  
+Tccd1:        +45.2°C  
+Tccd3:        +46.2°C  
+---
+=== Do 26. Feb 03:11:51 CET 2026 ===
+FDs: 17325
+Total procs: 62
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.1°C  
+Tccd1:        +49.5°C  
+Tccd3:        +51.5°C  
+---
+=== Do 26. Feb 03:12:03 CET 2026 ===
+FDs: 17314
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.0°C  
+Tccd1:        +43.2°C  
+Tccd3:        +42.8°C  
+---
+=== Do 26. Feb 03:12:15 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 34 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +38.2°C  
+Tccd1:        +35.5°C  
+Tccd3:        +37.2°C  
+---
+=== Do 26. Feb 03:12:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +33.8°C  
+Tccd3:        +36.5°C  
+---
+=== Do 26. Feb 03:12:38 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +36.0°C  
+Tccd1:        +33.5°C  
+Tccd3:        +36.0°C  
+---
+=== Do 26. Feb 03:12:50 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +33.0°C  
+Tccd3:        +35.2°C  
+---
+=== Do 26. Feb 03:13:01 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 30 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.2°C  
+Tccd3:        +35.0°C  
+---
+=== Do 26. Feb 03:13:13 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:13:24 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:13:36 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +31.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:13:47 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +31.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:13:58 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 03:14:10 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +34.0°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:14:21 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.9°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:14:33 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +54.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:14:44 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 03:14:56 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 03:15:07 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 03:15:18 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:15:30 CET 2026 ===
+FDs: 1075
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 35 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +31.8°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 03:15:41 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.5°C  
+---
+=== Do 26. Feb 03:15:53 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +33.5°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 03:16:04 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:16:16 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 35 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +33.8°C  
+Tccd1:        +31.5°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:16:27 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +33.6°C  
+Tccd1:        +31.2°C  
+Tccd3:        +33.2°C  
+---
+=== Do 26. Feb 03:16:39 CET 2026 ===
+FDs: 1388
+Total procs: 31
+Python procs: 1
+Zombie procs: 0
+PID usage: 33 / 4194304
+CPU usage: 
+Temps: temp1:        +51.0°C  
+k10temp-pci-00cb
+Tctl:         +37.8°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:16:50 CET 2026 ===
+FDs: 19711
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:17:02 CET 2026 ===
+FDs: 19739
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.4°C  
+Tccd1:        +32.2°C  
+Tccd3:        +33.8°C  
+---
+=== Do 26. Feb 03:17:14 CET 2026 ===
+FDs: 19420
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:17:26 CET 2026 ===
+FDs: 19657
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.9°C  
+Tccd1:        +33.5°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:17:38 CET 2026 ===
+FDs: 19928
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 93 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.6°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.0°C  
+---
+=== Do 26. Feb 03:17:50 CET 2026 ===
+FDs: 19536
+Total procs: 94
+Python procs: 31
+Zombie procs: 0
+PID usage: 94 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.8°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:18:02 CET 2026 ===
+FDs: 18764
+Total procs: 93
+Python procs: 31
+Zombie procs: 0
+PID usage: 92 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +36.5°C  
+Tccd1:        +34.0°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:18:14 CET 2026 ===
+FDs: 17270
+Total procs: 61
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +41.4°C  
+Tccd1:        +32.8°C  
+Tccd3:        +39.2°C  
+---
+=== Do 26. Feb 03:18:26 CET 2026 ===
+FDs: 17325
+Total procs: 66
+Python procs: 31
+Zombie procs: 0
+PID usage: 67 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +45.5°C  
+Tccd1:        +46.2°C  
+Tccd3:        +45.0°C  
+---
+=== Do 26. Feb 03:18:38 CET 2026 ===
+FDs: 17272
+Total procs: 63
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.1°C  
+Tccd1:        +44.0°C  
+Tccd3:        +47.8°C  
+---
+=== Do 26. Feb 03:18:50 CET 2026 ===
+FDs: 17272
+Total procs: 63
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +47.6°C  
+Tccd1:        +46.0°C  
+Tccd3:        +47.0°C  
+---
+=== Do 26. Feb 03:19:02 CET 2026 ===
+FDs: 17368
+Total procs: 66
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +37.2°C  
+Tccd3:        +38.8°C  
+---
+=== Do 26. Feb 03:19:14 CET 2026 ===
+FDs: 17314
+Total procs: 64
+Python procs: 31
+Zombie procs: 0
+PID usage: 64 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +48.5°C  
+Tccd1:        +38.8°C  
+Tccd3:        +41.0°C  
+---
+=== Do 26. Feb 03:19:26 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +37.0°C  
+Tccd1:        +34.2°C  
+Tccd3:        +36.2°C  
+---
+=== Do 26. Feb 03:19:37 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.8°C  
+Tccd1:        +33.2°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 03:19:49 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +35.6°C  
+Tccd1:        +32.8°C  
+Tccd3:        +35.5°C  
+---
+=== Do 26. Feb 03:20:00 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +53.0°C  
+k10temp-pci-00cb
+Tctl:         +35.0°C  
+Tccd1:        +32.5°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:20:11 CET 2026 ===
+FDs: 984
+Total procs: 33
+Python procs: 0
+Zombie procs: 0
+PID usage: 35 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.8°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:20:23 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.0°C  
+Tccd3:        +34.2°C  
+---
+=== Do 26. Feb 03:20:34 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.5°C  
+Tccd1:        +32.2°C  
+Tccd3:        +34.5°C  
+---
+=== Do 26. Feb 03:20:46 CET 2026 ===
+FDs: 938
+Total procs: 30
+Python procs: 0
+Zombie procs: 0
+PID usage: 32 / 4194304
+CPU usage: 
+Temps: temp1:        +52.0°C  
+k10temp-pci-00cb
+Tctl:         +34.2°C  
+Tccd1:        +32.0°C  
+Tccd3:        +33.8°C  
+---

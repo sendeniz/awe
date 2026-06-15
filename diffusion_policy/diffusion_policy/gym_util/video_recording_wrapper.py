@@ -27,6 +27,7 @@ class VideoRecordingWrapper(gym.Wrapper):
         self.step_count = 0
 
     def reset(self, **kwargs):
+        #print("Reset VidRecordWrapper")
         obs = super().reset(**kwargs)
         self.frames = list()
         self.step_count = 1

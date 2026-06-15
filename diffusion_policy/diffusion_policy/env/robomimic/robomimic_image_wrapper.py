@@ -8,16 +8,20 @@ from robomimic.envs.env_robosuite import EnvRobosuite
 import cv2 
 import mujoco
 
+# cv can get stuck if num threads not set
 cv2.setNumThreads(1)
 
 def img_resize(img, hw=(84, 84)):
+    #print("resize started:", img.shape)
     # from 3, H, W to H, W, 3
     img = img.transpose(1, 2, 0)
+    # print("img transposed:", img.shape)
     # Resize image to (H, W, 3) to Resize H, Resize W, 3 
-    img = cv2.resize(img, (84, 84))
-    # H, W, 3 back to 3, H, W
+    img = cv2.resize(img, (hw[0], hw[1]))
+    # print("resize img:", img.shape)
+    # H, W, 3 back kilto 3, H, W
     img = img.transpose(2, 0, 1)
-
+    # print("resize ended:", img.shape )
     return img
 
 def normalize(value, in_min, in_max, out_min, out_max):
@@ -96,22 +100,26 @@ class RobomimicImageWrapper(gym.Env):
 
     
     def get_observation(self, raw_obs=None):
+        #print("ImageWrapper get obs start.")
         if raw_obs is None:
+            #print("Raw obs is None")
             raw_obs = self.env.get_observation()
         
+        #print("self.render_obs_key:", self.render_obs_key)
         self.render_cache = raw_obs[self.render_obs_key]
         
         if self.render_obs_key in raw_obs:
+            #print("self.render_obs_key in raw_obs")
             img = raw_obs[self.render_obs_key]
+            #print("img shape:", img.shape)
             reder_obs_img = img_resize(img, hw=(84, 84))
+            #print("reder_obs_img shape:", reder_obs_img.shape)
 
+        #print("No if triggered")
         img = raw_obs["robot0_eye_in_hand_image"]
         eye_in_hand_obs_img = img_resize(img, hw=(84, 84))
        
-
-        #print(f"Processed image shape: {reder_obs_img.shape}")  # Debugging print
-        #print(f"Processed image shape: {eye_in_hand_obs_img.shape}")  # Debugging print
-        
+        #print("eye_in_hand_obs_img",eye_in_hand_obs_img.shape)
         # Store resized image
         raw_obs[self.render_obs_key] = reder_obs_img 
         raw_obs["robot0_eye_in_hand_image"] = eye_in_hand_obs_img
@@ -120,6 +128,8 @@ class RobomimicImageWrapper(gym.Env):
         for key in self.observation_space.keys():
             obs[key] = raw_obs[key]
 
+        #print("ImageWrapper get obs end.")
+
         return obs
 
     def seed(self, seed=None):
@@ -127,8 +137,10 @@ class RobomimicImageWrapper(gym.Env):
         self._seed = seed
     
     def reset(self):
+        #print("Image Wrapper Reset start")
         if self.init_state is not None:
             if not self.has_reset_before:
+                #print("Inside first if:")
                 # the env must be fully reset at least once to ensure correct rendering
                 self.env.reset()
                 self.has_reset_before = True
@@ -136,25 +148,38 @@ class RobomimicImageWrapper(gym.Env):
             # always reset to the same state
             # to be compatible with gym
             raw_obs = self.env.reset_to({'states': self.init_state})
+            #print("after env.reset_to")
         elif self._seed is not None:
+            #print("Inside second if:")
             # reset to a specific seed
             seed = self._seed
             if seed in self.seed_state_map:
+                #print("If inside second if:")
                 # env.reset is expensive, use cache
                 raw_obs = self.env.reset_to({'states': self.seed_state_map[seed]})
             else:
+                #print("else inside second if:")
                 # robosuite's initializes all use numpy global random state
                 np.random.seed(seed=seed)
+                #print("Before reset: else inside second if: self.env.reset()")
                 raw_obs = self.env.reset()
+                #print("After reset: else inside second if: self.env.reset()")
+
                 state = self.env.get_state()['states']
+                #print("After get state: else inside second if: self.env.reset()")
                 self.seed_state_map[seed] = state
+                #print("After seed_state")
+                
             self._seed = None
         else:
             # random reset
+            #print("Inside third if:")
             raw_obs = self.env.reset()
 
         # return obs
+        #print("before get observation")
         obs = self.get_observation(raw_obs)
+        #print("Image Wrapper Reset end")
         return obs
     
     def step(self, action):
@@ -245,6 +270,7 @@ class RobomimicImageWrapper(gym.Env):
         rewards = self.env.env.reward()
         return rewards
     
+    '''
     def get_controller_lin_velocity(self):
         """
         Returns desired linear/angular velocity for an OSC_POSE controller.
@@ -271,8 +297,16 @@ class RobomimicImageWrapper(gym.Env):
         desired_vel_angular -= controller.kd[3:] * controller.ee_ori_vel  # damping=1
 
         return desired_vel_angular
+    '''
     
+    def get_controller_lin_velocity(self):
+        controller = self.env.env.robots[0].controller
+        return controller.ee_pos_vel  # m/s, same space as site_xvelp
 
+    def get_controller_ang_velocity(self):
+        controller = self.env.env.robots[0].controller
+        return controller.ee_ori_vel  # rad/s, same space as site_xvelr
+    
     def get_sim_lin_velocity(self):
         """
         Returns the actual linear velocity (3D) of the end-effector in world coordinates.

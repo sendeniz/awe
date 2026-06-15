@@ -6,8 +6,11 @@ if __name__ == "__main__":
     ROOT_DIR = str(pathlib.Path(__file__).parent.parent.parent)
     sys.path.append(ROOT_DIR)
     os.chdir(ROOT_DIR)
-
+    
 import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '0,1,2,3,5,6'
+
+#import os
 import hydra
 import torch
 from omegaconf import OmegaConf
