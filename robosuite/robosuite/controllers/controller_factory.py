@@ -6,6 +6,7 @@ from .joint_vel import JointVelocityController
 from .joint_pos import JointPositionController
 from .joint_tor import JointTorqueController
 from .interpolators.linear_interpolator import LinearInterpolator
+from .interpolators.hermite_spline_interpolator import HermiteSplineInterpolator
 
 import json
 import os
@@ -120,6 +121,14 @@ def controller_factory(name, params):
     interpolator = None
     if params["interpolation"] == "linear":
         interpolator = LinearInterpolator(
+            ndim=params["ndim"],
+            controller_freq=(1 / params["sim"].model.opt.timestep),
+            policy_freq=params["policy_freq"],
+            ramp_ratio=params["ramp_ratio"],
+            multiplier=params["multiplier"],
+        )
+    elif params["interpolation"] == "hermite_spline":
+        interpolator = HermiteSplineInterpolator(
             ndim=params["ndim"],
             controller_freq=(1 / params["sim"].model.opt.timestep),
             policy_freq=params["policy_freq"],

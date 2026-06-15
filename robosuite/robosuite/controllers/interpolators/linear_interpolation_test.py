@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 from robosuite.controllers.interpolators.base_interpolator import Interpolator
 from robosuite.controllers.interpolators.linear_interpolator import LinearInterpolator
-from robosuite.controllers.interpolators.utils import compute_3d_error
+from utils import compute_3d_error
 
 def test_linear_interpolation():
     # Create interpolator with more steps for smoother visualization

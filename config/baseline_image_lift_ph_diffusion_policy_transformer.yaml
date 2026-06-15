@@ -1,10 +1,10 @@
 _target_: diffusion_policy.workspace.train_diffusion_transformer_hybrid_workspace.TrainDiffusionTransformerHybridWorkspace
 n_action_steps: 8
 horizon: 10
-n_demo: 199
+n_demo: 49 # [49, 99, 199]
 n_eval: 30
-seed: 42
-test_start_seed: 100000
+seed: 1214 # [119, 643, 1214] # original uses 42 other two seeds unknown
+test_start_seed: 100000 
 checkpoint:
   save_last_ckpt: true
   save_last_snapshot: false
@@ -181,7 +181,7 @@ task:
   dataset_path: data/robomimic/datasets/lift/ph/image_abs.hdf5
   dataset_type: ph
   env_runner:
-    model: "baseline"  # baseline diffusion pol 
+    model: "baseline"
     _target_: diffusion_policy.env_runner.robomimic_image_runner.RobomimicImageRunner
     abs_action: true
     crf: 22
@@ -208,7 +208,7 @@ task:
     n_action_steps: ${n_action_steps}
     n_envs: ${n_eval}
     n_obs_steps: 2
-    n_test: 50
+    n_test: 30 # 50 why 50 in original ? should be 30 as reported in paper
     n_test_vis: 0
     n_train: 0
     n_train_vis: 0

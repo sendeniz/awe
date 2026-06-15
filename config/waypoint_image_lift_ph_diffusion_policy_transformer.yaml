@@ -1,9 +1,9 @@
 _target_: diffusion_policy.workspace.train_diffusion_transformer_hybrid_workspace.TrainDiffusionTransformerHybridWorkspace
 n_action_steps: 8
 horizon: 10
-n_demo: 199
-n_eval: 30
-seed: 42
+n_demo: 49
+n_eval: 30 
+seed: 1214 # [119, 643, 1214] # original uses 42 other two seeds unknown
 checkpoint:
   save_last_ckpt: true
   save_last_snapshot: false
@@ -180,7 +180,6 @@ task:
   dataset_path: data/robomimic/datasets/lift/ph/image_abs.hdf5
   dataset_type: ph
   env_runner:
-    model: "awe"  # baseline diffusion pol + awe 
     _target_: diffusion_policy.env_runner.robomimic_image_runner.RobomimicImageRunner
     abs_action: true
     crf: 22
@@ -199,19 +198,19 @@ task:
       position_limits: null
       orientation_limits: null
       uncouple_pos_ori: true
-      control_delta: true
+      control_delta: false
       interpolation: null
-      ramp_ratio: 0.2 
+      ramp_ratio: 0.2
     fps: 10
     max_steps: 200
     n_action_steps: ${n_action_steps}
     n_envs: ${n_eval}
     n_obs_steps: 2
-    n_test: 50
+    n_test: 30 # 50 why 50 in original ? should be 30 as reported in paper
     n_test_vis: 0
     n_train: 0
     n_train_vis: 0
-    multiplier: 1 # original val from author is 10 but we can also set it via args.multiplier
+    multiplier: 10
     past_action: false
     render_obs_key: agentview_image
     shape_meta:
@@ -281,7 +280,7 @@ training:
   lr_warmup_steps: 1000
   max_train_steps: null
   max_val_steps: null
-  num_epochs: 8000
+  num_epochs: 3000
   rollout_every: 100
   sample_every: 5
   seed: ${seed}

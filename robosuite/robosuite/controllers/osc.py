@@ -3,7 +3,7 @@ from robosuite.utils.control_utils import *
 import robosuite.utils.transform_utils as T
 import numpy as np
 import math
-
+from robosuite.controllers.interpolators.hermite_spline_interpolator import HermiteSplineInterpolator
 
 # Supported impedance modes
 IMPEDANCE_MODES = {"fixed", "variable", "variable_kp"}
@@ -208,7 +208,8 @@ class OperationalSpaceController(Controller):
         self.relative_ori = np.zeros(3)
         self.ori_ref = None
 
-    def set_goal(self, action, set_pos=None, set_ori=None):
+    #def set_goal(self, action, set_pos=None, set_ori=None):
+    def set_goal(self, action, set_pos=None, set_ori=None, goal_vel=None):
         """
         Sets goal based on input @action. If self.impedance_mode is not "fixed", then the input will be parsed into the
         delta values to update the goal position / pose and the kp and/or damping_ratio values to be immediately updated
@@ -285,10 +286,24 @@ class OperationalSpaceController(Controller):
             position_limit=self.position_limits,
             set_pos=set_pos,
         )
-
+        
+        
         if self.interpolator_pos is not None:
-            self.interpolator_pos.set_goal(self.goal_pos, start=self.ee_pos)
-
+            #self.interpolator_pos.set_goal(self.goal_pos, start=self.ee_pos)
+            #self.interpolator_pos.set_goal(self.goal_pos, start=self.ee_pos, goal_vel=goal_vel)
+            if isinstance(self.interpolator_pos, HermiteSplineInterpolator):
+                if goal_vel is None and hasattr(self, '_pending_goal_vel'):
+                    goal_vel = self._pending_goal_vel
+                    self._pending_goal_vel = None
+                #self.interpolator_pos.set_goal(self.goal_pos, start=self.ee_pos, goal_vel=goal_vel)
+                self.interpolator_pos.set_goal(
+                    self.goal_pos,
+                    start=self.ee_pos,
+                    #start_vel=self.ee_pos_vel,
+                    goal_vel=goal_vel
+                )
+            else:
+                self.interpolator_pos.set_goal(self.goal_pos, start=self.ee_pos)
         if self.interpolator_ori is not None:
             self.ori_ref = np.array(
                 self.ee_ori_mat
@@ -313,7 +328,7 @@ class OperationalSpaceController(Controller):
         Returns:
              np.array: Command torques
         """
-        # Update state
+        
         self.update()
 
         desired_pos = None
@@ -322,9 +337,9 @@ class OperationalSpaceController(Controller):
             # Linear case
             if self.interpolator_pos.order == 1:
                 desired_pos = self.interpolator_pos.get_interpolated_goal()
-            else:
-                # Nonlinear case not currently supported
-                pass
+            #else:
+            #    # Nonlinear case not currently supported
+            #    pass
         else:
             desired_pos = np.array(self.goal_pos)
 
